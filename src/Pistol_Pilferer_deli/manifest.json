@@ -1,0 +1,25 @@
+﻿{
+    "guid":"h3vr.tnhtweaker.pistolpilferer",
+    "version":"{{ ver }}",
+    "require":"0.3.2",
+    "dependencies":{
+        "h3vr.tnhtweaker.deli":"1.6.6"
+    },
+    "name":"Pistol_Pilferer",
+    "description":"Guards at supply points drop new pistols.",
+    "authors":[
+        "Desi"
+    ],
+    "assets":{
+        "patcher":{
+            
+        },
+        "setup":{
+            "Pistol_Pilferer/*sosig*.json":"h3vr.tnhtweaker.deli:sosig",
+            "Pistol_Pilferer/":"h3vr.tnhtweaker.deli:character"
+        },
+        "runtime":{
+            
+        }
+    }
+}

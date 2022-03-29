@@ -1,0 +1,1245 @@
+﻿{
+    "DisplayName":"Pistol Pilferer",
+    "Description":"Guards at supply points drop pistols. Short, frantic holds. Non-random shop pools. Small maps with short sightlines play best.\nSPAWNLOCK and NO TARGETS only. v{{ ver }}",
+    "CharacterGroup": 2,
+    "TableID":"PistolPilferer",
+    "StartingTokens": 0,
+    "ForceAllAgentWeapons":false,
+    "ForceDisableOutfitFunctionality":false,
+    "UsesPurchasePriceIncrement":false,
+    "HasPrimaryWeapon":true,
+    "HasSecondaryWeapon":true,
+    "HasTertiaryWeapon":true,
+    "HasPrimaryItem":true,
+    "HasSecondaryItem":false,
+    "HasTertiaryItem":false,
+    "HasShield":false,
+    "ValidAmmoEras":[],
+    "ValidAmmoSets":[
+        "Real"
+    ],
+    "GlobalAmmoBlacklist":[
+
+    ],
+    "MagazineBlacklist":[],
+    
+    "RequireSightTable":{
+        "Category":"Attachment",
+        "Rarity":1.0,
+        "RequiredQuest":null,
+        "ItemsToSpawn":1,
+        "MinAmmoCapacity":-1,
+        "MaxAmmoCapacity":-1,
+        "NumMagsSpawned":3,
+        "NumClipsSpawned":3,
+        "NumRoundsSpawned":8,
+        "SpawnMagAndClip":false,
+        "BespokeAttachmentChance":0.5,
+        "IsCompatibleMagazine":false,
+        "AutoPopulateGroup":false,
+        "ForceSpawnAllSubPools":false,
+        "IDOverride":[],
+        "Eras":[],
+        "Sets":[],
+        "Sizes":[],
+        "Actions":[],
+        "Modes":[],
+        "ExcludedModes":[],
+        "FeedOptions":[],
+        "MountsAvailable":[],
+        "RoundPowers":[],
+        "Features":[],
+        "MeleeStyles":[],
+        "MeleeHandedness":[],
+        "MountTypes":[],
+        "PowerupTypes":[],
+        "ThrownTypes":[],
+        "ThrownDamageTypes":[],
+        "SubGroups":[]
+    },
+    "PrimaryWeapon":{
+        "PrimaryGroup":{
+            "Category":"Firearm",
+            "Rarity":1.0,
+            "RequiredQuest":null,
+            "ItemsToSpawn":1,
+            "MinAmmoCapacity":1,
+            "MaxAmmoCapacity":20,
+            "NumMagsSpawned":2,
+            "NumClipsSpawned":2,
+            "NumRoundsSpawned":8,
+            "SpawnMagAndClip":false,
+            "BespokeAttachmentChance":0.0,
+            "IsCompatibleMagazine":false,
+            "AutoPopulateGroup":false,
+            "ForceSpawnAllSubPools":false,
+            "IDOverride":[
+                "BTVP9.Muzz",
+                "WelrodMkIIa",
+                "M1895Nagant",
+                "M1879",
+                "SingleActionArmy",
+                "C1851Conversion",
+                "Hawk357",
+                "FA83",
+                "BFR"
+            ],
+            "Eras":[],
+            "Sets":[],
+            "Sizes":[],
+            "Actions":[],
+            "Modes":[],
+            "ExcludedModes":[],
+            "FeedOptions":[],
+            "MountsAvailable":[],
+            "RoundPowers":[],
+            "Features":[],
+            "MeleeStyles":[],
+            "MeleeHandedness":[],
+            "MountTypes":[],
+            "PowerupTypes":[],
+            "ThrownTypes":[],
+            "ThrownDamageTypes":[],
+            "SubGroups":[]
+        },
+        "BackupGroup":null
+    },
+    "SecondaryWeapon":{
+        "PrimaryGroup": {
+            "Category":"Firearm",
+            "Rarity":1.0,
+            "RequiredQuest":null,
+            "ItemsToSpawn":1,
+            "MinAmmoCapacity":1,
+            "MaxAmmoCapacity":20,
+            "NumMagsSpawned":1,
+            "NumClipsSpawned":1,
+            "NumRoundsSpawned":1,
+            "SpawnMagAndClip":true,
+            "BespokeAttachmentChance":0.0,
+            "IsCompatibleMagazine":false,
+            "AutoPopulateGroup":false,
+            "ForceSpawnAllSubPools":false,
+            "IDOverride":[
+        	    "GrappleGun"
+            ],
+            "Eras":[],
+            "Sets":[],
+            "Sizes":[],
+            "Actions":[],
+            "Modes":[],
+            "ExcludedModes":[],
+            "FeedOptions":[],
+            "MountsAvailable":[],
+            "RoundPowers":[],
+            "Features":[],
+            "MeleeStyles":[],
+            "MeleeHandedness":[],
+            "MountTypes":[],
+            "PowerupTypes":[],
+            "ThrownTypes":[],
+            "ThrownDamageTypes":[],
+            "SubGroups":[]
+        },
+        "BackupGroup":null
+    },
+    "TertiaryWeapon":{
+        "PrimaryGroup": {
+    		"Category": "Firearm",
+    		"Rarity": 1.0,
+    		"RequiredQuest": null,
+    		"ItemsToSpawn": 1,
+    		"MinAmmoCapacity": -1,
+    		"MaxAmmoCapacity": -1,
+    		"NumMagsSpawned": 0,
+    		"NumClipsSpawned": 0,
+    		"NumRoundsSpawned": 0,
+    		"SpawnMagAndClip": false,
+    		"BespokeAttachmentChance": 0.0,
+    		"IsCompatibleMagazine": false,
+    		"AutoPopulateGroup": false,
+    		"ForceSpawnAllSubPools": false,
+    		"IDOverride": [
+			    "PinnedGrenadeM18SmokeGrenadeWhite"
+    		],
+    		"Eras": [],
+    		"Sets": [],
+    		"Sizes": [],
+    		"Actions": [],
+    		"Modes": [],
+    		"ExcludedModes": [],
+    		"FeedOptions": [],
+    		"MountsAvailable": [],
+    		"RoundPowers": [],
+    		"Features": [],
+    		"MeleeStyles": [],
+    		"MeleeHandedness": [],
+    		"MountTypes": [],
+    		"PowerupTypes": null,
+    		"ThrownTypes": [],
+    		"ThrownDamageTypes": [],
+    		"SubGroups": []
+        },
+        "BackupGroup":null
+    },
+    "PrimaryItem":{
+        "PrimaryGroup": {
+    		"Category": "Attachment",
+    		"Rarity": 1.0,
+    		"RequiredQuest": null,
+    		"ItemsToSpawn": 2,
+    		"MinAmmoCapacity": -1,
+    		"MaxAmmoCapacity": -1,
+    		"NumMagsSpawned": 0,
+    		"NumClipsSpawned": 0,
+    		"NumRoundsSpawned": 0,
+    		"SpawnMagAndClip": false,
+    		"BespokeAttachmentChance": 0.0,
+    		"IsCompatibleMagazine": false,
+    		"AutoPopulateGroup": false,
+    		"ForceSpawnAllSubPools": false,
+    		"IDOverride": [
+			    "SureglowLight"
+    		],
+    		"Eras": [],
+    		"Sets": [],
+    		"Sizes": [],
+    		"Actions": [],
+    		"Modes": [],
+    		"ExcludedModes": [],
+    		"FeedOptions": [],
+    		"MountsAvailable": [],
+    		"RoundPowers": [],
+    		"Features": [],
+    		"MeleeStyles": [],
+    		"MeleeHandedness": [],
+    		"MountTypes": [],
+    		"PowerupTypes": null,
+    		"ThrownTypes": [],
+    		"ThrownDamageTypes": [],
+    		"SubGroups": []
+        },
+        "BackupGroup": null
+    },
+    "SecondaryItem":{
+        "PrimaryGroup": null,
+        "BackupGroup":null
+    },
+    "TertiaryItem":{
+        "PrimaryGroup": null,
+        "BackupGroup":null
+    },
+    "Shield":{
+        "PrimaryGroup": null,
+        "BackupGroup": null
+    },
+    "EquipmentPools":[
+        {
+            "Type":"Locomotion",
+            "IconName":"Icon_RailAdapter.png",
+            "TokenCost":3,
+            "TokenCostLimited":3,
+            "MinLevelAppears":1,
+            "MaxLevelAppears":99,
+            "SpawnsInSmallCase":false,
+            "SpawnsInLargeCase":false,
+            "PrimaryGroup":{
+                "Category":"Attachment",
+                "Rarity":1.0,
+                "RequiredQuest":"",
+                "ItemsToSpawn":1,
+                "MinAmmoCapacity":-1,
+                "MaxAmmoCapacity":-1,
+                "NumMagsSpawned":3,
+                "NumClipsSpawned":3,
+                "NumRoundsSpawned":3,
+                "SpawnMagAndClip":true,
+                "BespokeAttachmentChance":0.0,
+                "IsCompatibleMagazine":false,
+                "AutoPopulateGroup":false,
+                "ForceSpawnAllSubPools":false,
+                "IDOverride":[
+        			"RailedBarrelExtenderMiniQuad"
+                ],
+                "Eras":[],
+                "Sets":[],
+                "Sizes":[],
+                "Actions":[],
+                "Modes":[],
+                "ExcludedModes":[],
+                "FeedOptions":[],
+                "MountsAvailable":[],
+                "RoundPowers":[],
+                "Features":[],
+                "MeleeStyles":[],
+                "MeleeHandedness":[],
+                "MountTypes":[],
+                "PowerupTypes":[],
+                "ThrownTypes":[],
+                "ThrownDamageTypes":[],
+                "SubGroups":[]
+            },
+            "BackupGroup": null
+        },
+        {
+            "Type":"Locomotion",
+            "IconName":"Icon_BarrelExtension.png",
+            "TokenCost":3,
+            "TokenCostLimited":3,
+            "MinLevelAppears":1,
+            "MaxLevelAppears":99,
+            "SpawnsInSmallCase":false,
+            "SpawnsInLargeCase":false,
+            "PrimaryGroup":{
+                "Category":"Attachment",
+                "Rarity":1.0,
+                "RequiredQuest":"",
+                "ItemsToSpawn":1,
+                "MinAmmoCapacity":-1,
+                "MaxAmmoCapacity":-1,
+                "NumMagsSpawned":3,
+                "NumClipsSpawned":3,
+                "NumRoundsSpawned":3,
+                "SpawnMagAndClip":true,
+                "BespokeAttachmentChance":0.0,
+                "IsCompatibleMagazine":false,
+                "AutoPopulateGroup":false,
+                "ForceSpawnAllSubPools":false,
+                "IDOverride":[
+                    "BarrelExtenderThinShort"
+                ],
+                "Eras":[],
+                "Sets":[],
+                "Sizes":[],
+                "Actions":[],
+                "Modes":[],
+                "ExcludedModes":[],
+                "FeedOptions":[],
+                "MountsAvailable":[],
+                "RoundPowers":[],
+                "Features":[],
+                "MeleeStyles":[],
+                "MeleeHandedness":[],
+                "MountTypes":[],
+                "PowerupTypes":[],
+                "ThrownTypes":[],
+                "ThrownDamageTypes":[],
+                "SubGroups":[]
+            },
+            "BackupGroup": null
+        },
+        
+        {
+            "Type":"Firearm",
+            "IconName":"Icon_MuzzleBrake.png",
+            "TokenCost":3,
+            "TokenCostLimited":3,
+            "MinLevelAppears":0,
+            "MaxLevelAppears":99,
+            "SpawnsInSmallCase":false,
+            "SpawnsInLargeCase":false,
+            "PrimaryGroup":{
+                "Category":"Attachment",
+                "Rarity":1.0,
+                "RequiredQuest":"",
+                "ItemsToSpawn":1,
+                "MinAmmoCapacity":-1,
+                "MaxAmmoCapacity":-1,
+                "NumMagsSpawned":3,
+                "NumClipsSpawned":3,
+                "NumRoundsSpawned":3,
+                "SpawnMagAndClip":true,
+                "BespokeAttachmentChance":0.0,
+                "IsCompatibleMagazine":false,
+                "AutoPopulateGroup":false,
+                "ForceSpawnAllSubPools":false,
+                "IDOverride":[
+        			"CompensatorCutts"
+                ],
+                "Eras":[],
+                "Sets":[],
+                "Sizes":[],
+                "Actions":[],
+                "Modes":[],
+                "ExcludedModes":[],
+                "FeedOptions":[],
+                "MountsAvailable":[],
+                "RoundPowers":[],
+                "Features":[],
+                "MeleeStyles":[],
+                "MeleeHandedness":[],
+                "MountTypes":[],
+                "PowerupTypes":[],
+                "ThrownTypes":[],
+                "ThrownDamageTypes":[],
+                "SubGroups":[]
+            },
+            "BackupGroup": null
+        },
+        {
+            "Type":"Firearm",
+            "IconName":"Icon_Suppressor.png",
+            "TokenCost":3,
+            "TokenCostLimited":3,
+            "MinLevelAppears":0,
+            "MaxLevelAppears":99,
+            "SpawnsInSmallCase":false,
+            "SpawnsInLargeCase":false,
+            "PrimaryGroup":{
+                "Category":"Attachment",
+                "Rarity":1.0,
+                "RequiredQuest":"",
+                "ItemsToSpawn":1,
+                "MinAmmoCapacity":-1,
+                "MaxAmmoCapacity":-1,
+                "NumMagsSpawned":3,
+                "NumClipsSpawned":3,
+                "NumRoundsSpawned":3,
+                "SpawnMagAndClip":true,
+                "BespokeAttachmentChance":0.0,
+                "IsCompatibleMagazine":false,
+                "AutoPopulateGroup":false,
+                "ForceSpawnAllSubPools":false,
+                "IDOverride":[
+        			"MaximSilencerSmallB"
+                ],
+                "Eras":[],
+                "Sets":[],
+                "Sizes":[],
+                "Actions":[],
+                "Modes":[],
+                "ExcludedModes":[],
+                "FeedOptions":[],
+                "MountsAvailable":[],
+                "RoundPowers":[],
+                "Features":[],
+                "MeleeStyles":[],
+                "MeleeHandedness":[],
+                "MountTypes":[],
+                "PowerupTypes":[],
+                "ThrownTypes":[],
+                "ThrownDamageTypes":[],
+                "SubGroups":[]
+            },
+            "BackupGroup": null
+        },
+        
+       {
+            "Type":"Equipment",
+            "IconName":"Icon_ReflexSight.png",
+            "TokenCost":3,
+            "TokenCostLimited":3,
+            "MinLevelAppears":0,
+            "MaxLevelAppears":99,
+            "SpawnsInSmallCase":false,
+            "SpawnsInLargeCase":false,
+            "PrimaryGroup":{
+                "Category":"Attachment",
+                "Rarity":1.0,
+                "RequiredQuest":"",
+                "ItemsToSpawn":1,
+                "MinAmmoCapacity":-1,
+                "MaxAmmoCapacity":-1,
+                "NumMagsSpawned":3,
+                "NumClipsSpawned":3,
+                "NumRoundsSpawned":3,
+                "SpawnMagAndClip":true,
+                "BespokeAttachmentChance":0.0,
+                "IsCompatibleMagazine":false,
+                "AutoPopulateGroup":false,
+                "ForceSpawnAllSubPools":false,
+                "IDOverride":[
+        			"ReflexRedDotStandard"
+                ],
+                "Eras":[],
+                "Sets":[],
+                "Sizes":[],
+                "Actions":[],
+                "Modes":[],
+                "ExcludedModes":[],
+                "FeedOptions":[],
+                "MountsAvailable":[],
+                "RoundPowers":[],
+                "Features":[],
+                "MeleeStyles":[],
+                "MeleeHandedness":[],
+                "MountTypes":[],
+                "PowerupTypes":[],
+                "ThrownTypes":[],
+                "ThrownDamageTypes":[],
+                "SubGroups":[]
+            },
+            "BackupGroup": null
+        },
+        {
+            "Type":"Equipment",
+            "IconName":"Icon_AttachableStock.png",
+            "TokenCost":3,
+            "TokenCostLimited":3,
+            "MinLevelAppears":3,
+            "MaxLevelAppears":99,
+            "SpawnsInSmallCase":false,
+            "SpawnsInLargeCase":false,
+            "PrimaryGroup":{
+                "Category":"Attachment",
+                "Rarity":1.0,
+                "RequiredQuest":"",
+                "ItemsToSpawn":1,
+                "MinAmmoCapacity":-1,
+                "MaxAmmoCapacity":-1,
+                "NumMagsSpawned":3,
+                "NumClipsSpawned":3,
+                "NumRoundsSpawned":3,
+                "SpawnMagAndClip":true,
+                "BespokeAttachmentChance":0.0,
+                "IsCompatibleMagazine":false,
+                "AutoPopulateGroup":false,
+                "ForceSpawnAllSubPools":false,
+                "IDOverride":[
+        			"StockTSA-G"
+                ],
+                "Eras":[],
+                "Sets":[],
+                "Sizes":[],
+                "Actions":[],
+                "Modes":[],
+                "ExcludedModes":[],
+                "FeedOptions":[],
+                "MountsAvailable":[],
+                "RoundPowers":[],
+                "Features":[],
+                "MeleeStyles":[],
+                "MeleeHandedness":[],
+                "MountTypes":[],
+                "PowerupTypes":[],
+                "ThrownTypes":[],
+                "ThrownDamageTypes":[],
+                "SubGroups":[]
+            },
+            "BackupGroup": null
+        },
+
+        {
+            "Type":"Consumable",
+            "IconName":"Icon_Laser.png",
+            "TokenCost":3,
+            "TokenCostLimited":3,
+            "MinLevelAppears":3,
+            "MaxLevelAppears":99,
+            "SpawnsInSmallCase":false,
+            "SpawnsInLargeCase":false,
+            "PrimaryGroup":{
+                "Category":"Attachnment",
+                "Rarity":1.0,
+                "RequiredQuest":"",
+                "ItemsToSpawn":1,
+                "MinAmmoCapacity":-1,
+                "MaxAmmoCapacity":-1,
+                "NumMagsSpawned":3,
+                "NumClipsSpawned":3,
+                "NumRoundsSpawned":3,
+                "SpawnMagAndClip":true,
+                "BespokeAttachmentChance":0.0,
+                "IsCompatibleMagazine":false,
+                "AutoPopulateGroup":false,
+                "ForceSpawnAllSubPools":false,
+                "IDOverride":[
+        			"TacticalLaser3"
+                ],
+                "Eras":[],
+                "Sets":[],
+                "Sizes":[],
+                "Actions":[],
+                "Modes":[],
+                "ExcludedModes":[],
+                "FeedOptions":[],
+                "MountsAvailable":[],
+                "RoundPowers":[],
+                "Features":[],
+                "MeleeStyles":[],
+                "MeleeHandedness":[],
+                "MountTypes":[],
+                "PowerupTypes":[],
+                "ThrownTypes":[],
+                "ThrownDamageTypes":[],
+                "SubGroups":[]
+            },
+            "BackupGroup": null
+        },        
+        {
+            "Type":"Consumable",
+            "IconName":"Icon_Foregrip.png",
+            "TokenCost":3,
+            "TokenCostLimited":3,
+            "MinLevelAppears":0,
+            "MaxLevelAppears":99,
+            "SpawnsInSmallCase":false,
+            "SpawnsInLargeCase":false,
+            "PrimaryGroup":{
+                "Category":"Attachment",
+                "Rarity":1.0,
+                "RequiredQuest":"",
+                "ItemsToSpawn":1,
+                "MinAmmoCapacity":-1,
+                "MaxAmmoCapacity":-1,
+                "NumMagsSpawned":3,
+                "NumClipsSpawned":3,
+                "NumRoundsSpawned":3,
+                "SpawnMagAndClip":true,
+                "BespokeAttachmentChance":0.0,
+                "IsCompatibleMagazine":false,
+                "AutoPopulateGroup":false,
+                "ForceSpawnAllSubPools":false,
+                "IDOverride":[
+        			"ForegripValk"
+                ],
+                "Eras":[],
+                "Sets":[],
+                "Sizes":[],
+                "Actions":[],
+                "Modes":[],
+                "ExcludedModes":[],
+                "FeedOptions":[],
+                "MountsAvailable":[],
+                "RoundPowers":[],
+                "Features":[],
+                "MeleeStyles":[],
+                "MeleeHandedness":[],
+                "MountTypes":[],
+                "PowerupTypes":[],
+                "ThrownTypes":[],
+                "ThrownDamageTypes":[],
+                "SubGroups":[]
+            },
+            "BackupGroup": null
+        },
+
+        {
+            "Type":"Storage",
+            "IconName":"Icon_Health.png",
+            "TokenCost":6,
+            "TokenCostLimited":6,
+            "MinLevelAppears":0,
+            "MaxLevelAppears":99,
+            "SpawnsInSmallCase":false,
+            "SpawnsInLargeCase":false,
+            "PrimaryGroup":{
+                "Category":"Powerup",
+                "Rarity":1.0,
+                "RequiredQuest":"",
+                "ItemsToSpawn":1,
+                "MinAmmoCapacity":-1,
+                "MaxAmmoCapacity":-1,
+                "NumMagsSpawned":3,
+                "NumClipsSpawned":3,
+                "NumRoundsSpawned":3,
+                "SpawnMagAndClip":true,
+                "BespokeAttachmentChance":0.0,
+                "IsCompatibleMagazine":false,
+                "AutoPopulateGroup":false,
+                "ForceSpawnAllSubPools":false,
+                "IDOverride":[
+                	"PowerUpMeat_Health"
+                ],
+                "Eras":[],
+                "Sets":[],
+                "Sizes":[],
+                "Actions":[],
+                "Modes":[],
+                "ExcludedModes":[],
+                "FeedOptions":[],
+                "MountsAvailable":[],
+                "RoundPowers":[],
+                "Features":[],
+                "MeleeStyles":[],
+                "MeleeHandedness":[],
+                "MountTypes":[],
+                "PowerupTypes":[],
+                "ThrownTypes":[],
+                "ThrownDamageTypes":[],
+                "SubGroups":[]
+            },
+            "BackupGroup": null
+        },
+        {
+            "Type":"Storage",
+            "IconName":"Icon_BallisticShield.png",
+            "TokenCost":9,
+            "TokenCostLimited":9,
+            "MinLevelAppears":3,
+            "MaxLevelAppears":99,
+            "SpawnsInSmallCase":false,
+            "SpawnsInLargeCase":false,
+            "PrimaryGroup":{
+                "Category":"Thrown",
+                "Rarity":1.0,
+                "RequiredQuest":"",
+                "ItemsToSpawn":1,
+                "MinAmmoCapacity":-1,
+                "MaxAmmoCapacity":-1,
+                "NumMagsSpawned":3,
+                "NumClipsSpawned":3,
+                "NumRoundsSpawned":3,
+                "SpawnMagAndClip":true,
+                "BespokeAttachmentChance":0.0,
+                "IsCompatibleMagazine":false,
+                "AutoPopulateGroup":false,
+                "ForceSpawnAllSubPools":false,
+                "IDOverride":[
+        			"Shield_BallisticShield"
+                ],
+                "Eras":[],
+                "Sets":[],
+                "Sizes":[],
+                "Actions":[],
+                "Modes":[],
+                "ExcludedModes":[],
+                "FeedOptions":[],
+                "MountsAvailable":[],
+                "RoundPowers":[],
+                "Features":[],
+                "MeleeStyles":[],
+                "MeleeHandedness":[],
+                "MountTypes":[],
+                "PowerupTypes":[],
+                "ThrownTypes":[],
+                "ThrownDamageTypes":[],
+                "SubGroups":[]
+            },
+            "BackupGroup": null
+        }
+    ],
+    "Levels":[
+        {
+            "NumOverrideTokensForHold": 0,
+            "MinSupplyPoints": 2,
+            "MaxSupplyPoints": 2,
+            "MinConstructors":1,
+            "MaxConstructors":1,
+            "MinPanels":3,
+            "MaxPanels":3,
+            "MinBoxesSpawned":0,
+            "MaxBoxesSpawned":0,
+            "MinTokensPerSupply":0,
+            "MaxTokensPerSupply":0,
+            "BoxTokenChance":0.0,
+            "BoxHealthChance":0.0,
+            "PossiblePanelTypes":[
+	            "AmmoReloader",
+                "Recycler",
+                "MagUpgrader"
+            ],
+            "TakeChallenge":{
+                "TurretType":"SMG",
+                "EnemyType":"PistolPilfererLV0",
+                "NumTurrets":0,
+                "NumGuards": 2,
+                "IFFUsed":1
+            },
+            "HoldPhases":[
+                {
+                    "Encryptions":[
+                        "Static"
+                    ],
+                    "MinTargets":1,
+                    "MaxTargets":1,
+                    "MinTargetsLimited":1,
+                    "MaxTargetsLimited":1,
+                    "EnemyType":[
+                        "PistolPilfererLV0"
+                    ],
+                    "LeaderType":"PistolPilfererLV1",
+                    "MinEnemies":3,
+                    "MaxEnemies":4,
+                    "MaxEnemiesAlive":25,
+                    "MaxDirections":1,
+                    "SpawnCadence": 9.0,
+                    "ScanTime": 35.0,
+                    "WarmupTime":5.0,
+                    "IFFUsed":1,
+                    "GrenadeChance":0.0,
+                    "GrenadeType":"Sosiggrenade_Flash",
+                    "SwarmPlayer":false
+                }
+            ],
+            "SupplyChallenge":{
+                "TurretType":"SMG",
+                "EnemyType":"PistolPilfererLV0Lootable",
+                "NumTurrets":0,
+                "NumGuards": 3,
+                "IFFUsed":1
+            },
+            "Patrols":[
+                {
+                    "EnemyType":[
+                        "PistolPilfererLV0"
+                    ],
+                    "LeaderType":"PistolPilfererLV0",
+                    "PatrolSize":5,
+                    "MaxPatrols": 2,
+                    "MaxPatrolsLimited": 1,
+                    "PatrolCadence": 42.0,
+                    "PatrolCadenceLimited": 120.0,
+                    "IFFUsed":1,
+                    "SwarmPlayer":true,
+                    "AssualtSpeed":"Running",
+                    "IsBoss":false,
+                    "DropChance":0.0,
+                    "DropsHealth":false
+                }
+            ]
+        },
+        {
+            "NumOverrideTokensForHold": 0,
+            "MinSupplyPoints": 2,
+            "MaxSupplyPoints": 2,
+            "MinConstructors":1,
+            "MaxConstructors":1,
+            "MinPanels":3,
+            "MaxPanels":3,
+            "MinBoxesSpawned":0,
+            "MaxBoxesSpawned":0,
+            "MinTokensPerSupply":0,
+            "MaxTokensPerSupply":0,
+            "BoxTokenChance":0.0,
+            "BoxHealthChance":0.0,
+            "PossiblePanelTypes":[
+	            "AmmoReloader",
+                "Recycler",
+                "MagUpgrader"
+            ],
+            "TakeChallenge":{
+                "TurretType":"SMG",
+                "EnemyType":"PistolPilfererLV1",
+                "NumTurrets":0,
+                "NumGuards": 6,
+                "IFFUsed":1
+            },
+            "HoldPhases":[
+                {
+                    "Encryptions":[
+                        "Static"
+                    ],
+                    "MinTargets":3,
+                    "MaxTargets":4,
+                    "MinTargetsLimited":2,
+                    "MaxTargetsLimited":3,
+                    "EnemyType":[
+                        "PistolPilfererLV0",
+                        "PistolPilfererLV1"
+                    ],
+                    "LeaderType":"PistolPilfererLV2",
+                    "MinEnemies":3,
+                    "MaxEnemies":5,
+                    "MaxEnemiesAlive":25,
+                    "MaxDirections":1,
+                    "SpawnCadence": 9.0,
+                    "ScanTime": 35.0,
+                    "WarmupTime":5.0,
+                    "IFFUsed":1,
+                    "GrenadeChance":0.0,
+                    "GrenadeType":"Sosiggrenade_Flash",
+                    "SwarmPlayer":false
+                }
+            ],
+            "SupplyChallenge":{
+                "TurretType":"SMG",
+                "EnemyType":"PistolPilfererLV1Lootable",
+                "NumTurrets":0,
+                "NumGuards": 3,
+                "IFFUsed":1
+            },
+            "Patrols":[
+                {
+                    "EnemyType":[
+                        "PistolPilfererLV0",
+                        "PistolPilfererLV1"
+                    ],
+                    "LeaderType":"PistolPilfererLV1",
+                    "PatrolSize":5,
+                    "MaxPatrols": 2,
+                    "MaxPatrolsLimited": 1,
+                    "PatrolCadence": 42.0,
+                    "PatrolCadenceLimited": 120.0,
+                    "IFFUsed":1,
+                    "SwarmPlayer":true,
+                    "AssualtSpeed":"Running",
+                    "IsBoss":false,
+                    "DropChance":0,
+                    "DropsHealth":false
+                }
+            ]
+        },
+        {
+            "NumOverrideTokensForHold": 0,
+            "MinSupplyPoints": 3,
+            "MaxSupplyPoints": 3,
+            "MinConstructors":1,
+            "MaxConstructors":1,
+            "MinPanels":3,
+            "MaxPanels":3,
+            "MinBoxesSpawned":0,
+            "MaxBoxesSpawned":0,
+            "MinTokensPerSupply":0,
+            "MaxTokensPerSupply":0,
+            "BoxTokenChance":0.0,
+            "BoxHealthChance":0.0,
+            "PossiblePanelTypes":[
+	            "AmmoReloader",
+                "MagUpgrader",
+                "Recycler"
+            ],
+            "TakeChallenge":{
+                "TurretType":"SMG",
+                "EnemyType":"PistolPilfererLV2",
+                "NumTurrets":0,
+                "NumGuards":6,
+                "IFFUsed":1
+            },
+            "HoldPhases":[
+                {
+                    "Encryptions":[
+                        "Static"
+                    ],
+                    "MinTargets":4,
+                    "MaxTargets":5,
+                    "MinTargetsLimited":3,
+                    "MaxTargetsLimited":4,
+                    "EnemyType":[
+                        "PistolPilfererLV0",
+                        "PistolPilfererLV1",
+                        "PistolPilfererLV2"
+                    ],
+                    "LeaderType":"PistolPilfererLV3",
+                    "MinEnemies":3,
+                    "MaxEnemies":6,
+                    "MaxEnemiesAlive":25,
+                    "MaxDirections":2,
+                    "SpawnCadence": 9.0,
+                    "ScanTime": 35.0,
+                    "WarmupTime":5.0,
+                    "IFFUsed":1,
+                    "GrenadeChance":0.0,
+                    "GrenadeType":"Sosiggrenade_Flash",
+                    "SwarmPlayer":false
+                }
+            ],
+            "SupplyChallenge":{
+                "TurretType":"SMG",
+                "EnemyType":"PistolPilfererLV2Lootable",
+                "NumTurrets":0,
+                "NumGuards": 3,
+                "IFFUsed":1
+            },
+            "Patrols":[
+                {
+                    "EnemyType":[
+                        "PistolPilfererLV0",
+                        "PistolPilfererLV1",
+                        "PistolPilfererLV2"
+                    ],
+                    "LeaderType":"PistolPilfererLV2",
+                    "PatrolSize":5,
+                    "MaxPatrols": 2,
+                    "MaxPatrolsLimited": 1,
+                    "PatrolCadence": 42.0,
+                    "PatrolCadenceLimited": 120.0,
+                    "IFFUsed":1,
+                    "SwarmPlayer":true,
+                    "AssualtSpeed":"Running",
+                    "IsBoss":false,
+                    "DropChance":0,
+                    "DropsHealth":false
+                }
+            ]
+        },
+        {
+            "NumOverrideTokensForHold": 0,
+            "MinSupplyPoints": 3,
+            "MaxSupplyPoints": 3,
+            "MinConstructors":1,
+            "MaxConstructors":1,
+            "MinPanels":3,
+            "MaxPanels":3,
+            "MinBoxesSpawned":0,
+            "MaxBoxesSpawned":0,
+            "MinTokensPerSupply":0,
+            "MaxTokensPerSupply":0,
+            "BoxTokenChance":0.0,
+            "BoxHealthChance":0.0,
+            "PossiblePanelTypes":[
+	            "AmmoReloader",
+                "MagUpgrader",
+                "Recycler"
+            ],
+            "TakeChallenge":{
+                "TurretType":"SMG",
+                "EnemyType":"PistolPilfererLV3",
+                "NumTurrets":0,
+                "NumGuards":6,
+                "IFFUsed":1
+            },
+            "HoldPhases":[
+                {
+                    "Encryptions":[
+                        "Static"
+                    ],
+                    "MinTargets":5,
+                    "MaxTargets":6,
+                    "MinTargetsLimited":4,
+                    "MaxTargetsLimited":5,
+                    "EnemyType":[
+                        "PistolPilfererLV0",
+                        "PistolPilfererLV1",
+                        "PistolPilfererLV2",
+                        "PistolPilfererLV3"
+                    ],
+                    "LeaderType":"PistolPilfererLV4",
+                    "MinEnemies":3,
+                    "MaxEnemies":7,
+                    "MaxEnemiesAlive":25,
+                    "MaxDirections":2,
+                    "SpawnCadence": 9.0,
+                    "ScanTime": 35.0,
+                    "WarmupTime":5.0,
+                    "IFFUsed":1,
+                    "GrenadeChance":0.0,
+                    "GrenadeType":"Sosiggrenade_Flash",
+                    "SwarmPlayer":false
+                }
+            ],
+            "SupplyChallenge":{
+                "TurretType":"Suppression",
+                "EnemyType":"PistolPilfererLV3Lootable",
+                "NumTurrets":0,
+                "NumGuards": 3,
+                "IFFUsed":1
+            },
+            "Patrols":[
+                {
+                    "EnemyType":[
+                        "PistolPilfererLV0",
+                        "PistolPilfererLV1",
+                        "PistolPilfererLV2",
+                        "PistolPilfererLV3"
+                    ],
+                    "LeaderType":"PistolPilfererLV3",
+                    "PatrolSize":5,
+                    "MaxPatrols": 2,
+                    "MaxPatrolsLimited": 1,
+                    "PatrolCadence": 42.0,
+                    "PatrolCadenceLimited": 120.0,
+                    "IFFUsed":1,
+                    "SwarmPlayer":true,
+                    "AssualtSpeed":"Running",
+                    "IsBoss":false,
+                    "DropChance":0.0,
+                    "DropsHealth":false
+                }
+            ]
+        },
+        {
+            "NumOverrideTokensForHold": 0,
+            "MinSupplyPoints": 3,
+            "MaxSupplyPoints": 3,
+            "MinConstructors":1,
+            "MaxConstructors":1,
+            "MinPanels":3,
+            "MaxPanels":3,
+            "MinBoxesSpawned":0,
+            "MaxBoxesSpawned":0,
+            "MinTokensPerSupply":0,
+            "MaxTokensPerSupply":0,
+            "BoxTokenChance":0.0,
+            "BoxHealthChance":0.0,
+            "PossiblePanelTypes":[
+	            "AmmoReloader",
+                "MagUpgrader",
+                "Recycler"
+            ],
+            "TakeChallenge":{
+                "TurretType":"SMG",
+                "EnemyType":"PistolPilfererLV4",
+                "NumTurrets":0,
+                "NumGuards": 5,
+                "IFFUsed":1
+            },
+            "HoldPhases":[
+                {
+                    "Encryptions":[
+                        "Static"
+                    ],
+                    "MinTargets":3,
+                    "MaxTargets":4,
+                    "MinTargetsLimited":2,
+                    "MaxTargetsLimited":3,
+                    "EnemyType":[
+                        "PistolPilfererLV1",
+                        "PistolPilfererLV2",
+                        "PistolPilfererLV3"
+                    ],
+                    "LeaderType":"PistolPilfererLV4",
+                    "MinEnemies":3,
+                    "MaxEnemies":5,
+                    "MaxEnemiesAlive":25,
+                    "MaxDirections":2,
+                    "SpawnCadence": 10.0,
+                    "ScanTime": 35.0,
+                    "WarmupTime":5.0,
+                    "IFFUsed":1,
+                    "GrenadeChance":0.0,
+                    "GrenadeType":"Sosiggrenade_Flash",
+                    "SwarmPlayer":false
+                },
+                {
+                    "Encryptions":[
+                        "Static"
+                    ],
+                    "MinTargets":2,
+                    "MaxTargets":2,
+                    "MinTargetsLimited":2,
+                    "MaxTargetsLimited":2,
+                    "EnemyType":[
+                        "PistolPilfererLV2",
+                        "PistolPilfererLV3",
+                        "PistolPilfererLV4"
+                    ],
+                    "LeaderType":"PistolPilfererLV4Shield",
+                    "MinEnemies":3,
+                    "MaxEnemies":5,
+                    "MaxEnemiesAlive":25,
+                    "MaxDirections":2,
+                    "SpawnCadence": 10.0,
+                    "ScanTime": 35.0,
+                    "WarmupTime":5.0,
+                    "IFFUsed":1,
+                    "GrenadeChance":0.2,
+                    "GrenadeType":"Sosiggrenade_Flash",
+                    "SwarmPlayer":false
+                }
+            ],
+            "SupplyChallenge":{
+                "TurretType":"Flamethrower",
+                "EnemyType":"PistolPilfererLV4Lootable",
+                "NumTurrets":0,
+                "NumGuards": 3,
+                "IFFUsed":1
+            },
+            "Patrols":[
+                {
+                    "EnemyType":[
+                        "PistolPilfererLV0",
+                        "PistolPilfererLV1",
+                        "PistolPilfererLV2",
+                        "PistolPilfererLV3",
+                        "PistolPilfererLV4"
+                    ],
+                    "LeaderType":"PistolPilfererLV4",
+                    "PatrolSize":5,
+                    "MaxPatrols": 2,
+                    "MaxPatrolsLimited": 1,
+                    "PatrolCadence": 42.0,
+                    "PatrolCadenceLimited": 120.0,
+                    "IFFUsed":1,
+                    "SwarmPlayer":true,
+                    "AssualtSpeed":"Running",
+                    "IsBoss":false,
+                    "DropChance":0.0,
+                    "DropsHealth":false
+                }
+            ]
+        }
+    ],
+    "LevelsEndless":[
+        {
+            "NumOverrideTokensForHold": 0,
+            "MinSupplyPoints": 4,
+            "MaxSupplyPoints": 4,
+            "MinConstructors":1,
+            "MaxConstructors":2,
+            "MinPanels":3,
+            "MaxPanels":3,
+            "MinBoxesSpawned":0,
+            "MaxBoxesSpawned":0,
+            "MinTokensPerSupply":0,
+            "MaxTokensPerSupply":0,
+            "BoxTokenChance":0.0,
+            "BoxHealthChance":0.0,
+            "PossiblePanelTypes":[
+     	            "AmmoReloader",
+                "MagDuplicator",
+                "Recycler"
+            ],
+            "TakeChallenge":{
+                "TurretType":"Machinegun",
+                "EnemyType":"PistolPilfererLV4",
+                "NumTurrets":0,
+                "NumGuards":5,
+                "IFFUsed":1
+            },
+            "HoldPhases":[
+                {
+                    "Encryptions":[
+                        "Static"
+                    ],
+                    "MinTargets":2,
+                    "MaxTargets":2,
+                    "MinTargetsLimited":3,
+                    "MaxTargetsLimited":3,
+                    "EnemyType":[
+                        "PistolPilfererLV0",
+                        "PistolPilfererLV1",
+                        "PistolPilfererLV2",
+                        "PistolPilfererLV3",
+                        "PistolPilfererLV4",
+                        "PistolPilfererLV4Shield"
+                        
+                    ],
+                    "LeaderType":"PistolPilfererLV4",
+                    "MinEnemies":3,
+                    "MaxEnemies":5,
+                    "MaxEnemiesAlive":25,
+                    "MaxDirections":2,
+                    "SpawnCadence": 9.0,
+                    "ScanTime": 35.0,
+                    "WarmupTime":5.0,
+                    "IFFUsed":1,
+                    "GrenadeChance":0.0,
+                    "GrenadeType":"Sosiggrenade_Flash",
+                    "SwarmPlayer":false
+                }
+            ],
+            "SupplyChallenge":{
+                "TurretType":"SMG",
+                "EnemyType":"PistolPilfererLV4Lootable",
+                "NumTurrets":0,
+                "NumGuards": 4,
+                "IFFUsed":1
+            },
+            "Patrols":[
+                {
+                    "EnemyType":[
+                        "PistolPilfererLV0",
+                        "PistolPilfererLV1",
+                        "PistolPilfererLV2",
+                        "PistolPilfererLV3",
+                        "PistolPilfererLV4",
+                        "PistolPilfererLV4Shield"
+                    ],
+                    "LeaderType":"PistolPilfererLV4",
+                    "PatrolSize":5,
+                    "MaxPatrols": 2,
+                    "MaxPatrolsLimited": 1,
+                    "PatrolCadence": 42.0,
+                    "PatrolCadenceLimited": 120.0,
+                    "IFFUsed":1,
+                    "SwarmPlayer":true,
+                    "AssualtSpeed":"Running",
+                    "IsBoss":false,
+                    "DropChance":0.0,
+                    "DropsHealth":false
+                }
+            ]
+        }
+    ]
+}
