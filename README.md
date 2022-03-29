@@ -66,7 +66,7 @@ Plays best in small maps with multiple routes and limited sightlines such as
 
 ## CHANGELOG
 
-## v0.0.1 (2022-03-19)
+## v0.0.6 (2022-03-29)
 - Initial release.
 
 
