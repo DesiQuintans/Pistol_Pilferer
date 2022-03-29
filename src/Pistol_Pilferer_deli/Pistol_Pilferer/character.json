@@ -1211,7 +1211,13 @@
             ],
             "SupplyChallenge":{
                 "TurretType":"SMG",
-                "EnemyType":"PistolPilfererLV4Lootable",
+                "EnemyType":[
+                    "PistolPilfererLV0Lootable",
+                    "PistolPilfererLV1Lootable",
+                    "PistolPilfererLV2Lootable",
+                    "PistolPilfererLV3Lootable",
+                    "PistolPilfererLV4Lootable"
+                ]
                 "NumTurrets":0,
                 "NumGuards": 4,
                 "IFFUsed":1
