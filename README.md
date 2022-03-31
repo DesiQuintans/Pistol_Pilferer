@@ -63,6 +63,33 @@ Plays best in small maps with multiple routes and limited sightlines such as
 
 ---
 
+## Frequently Asked Questions
+
+### How do new modded guns get added to Pistol Pilferer?
+
+They're added by name using scripts that I run. The scripts retrieve the 
+metadata of the guns, use that metadata to group the guns into loot pools, and 
+then I update those loot pools in the mod.
+
+## Why don't I ever see a modded gun that I have installed appear as loot?
+
+You could just be unlucky and not have had it drop yet. There are a few other 
+possibilities, though:
+
+1.  The mod is new and I haven't updated the character to use it.
+2.  The mod's author did not fill out the gun's metadata properly. My loot pool
+    script needs the fields FirearmSize, FirearmAction, FirearmFeedOptions, 
+    FirearmFiringModes, Capacity, MinCapacityRelated, MaxCapacityRelated, and 
+    DoesUseSpeedLoader to all be filled out. FirearmSize needs to be Pocket or 
+    Pistol, and only pistols and cartridges in the set 'Real' are used by
+    this character.
+3.  The mod **is** in the loot pool, but only one of the cosmetic variants is 
+    listed. I only list one cosmetic variant per mod.
+4.  In rare cases, guns may not be fun to use or they may be too good for the
+    game. For example, I support the FTW_Arms_P50 pistol (it fires from a P90 
+    magazine), but I removed its full-auto variant.
+
+---
 
 ## CHANGELOG
 
