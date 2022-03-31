@@ -74,8 +74,6 @@
             "AutoPopulateGroup":false,
             "ForceSpawnAllSubPools":false,
             "IDOverride":[
-                "BTVP9.Muzz",
-                "WelrodMkIIa",
                 "M1895Nagant",
                 "M1879",
                 "SingleActionArmy",
