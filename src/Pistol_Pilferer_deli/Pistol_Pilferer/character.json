@@ -1166,7 +1166,7 @@
             "BoxTokenChance":0.0,
             "BoxHealthChance":0.0,
             "PossiblePanelTypes":[
-     	            "AmmoReloader",
+     	        "AmmoReloader",
                 "MagDuplicator",
                 "Recycler"
             ],
@@ -1210,15 +1210,9 @@
             ],
             "SupplyChallenge":{
                 "TurretType":"SMG",
-                "EnemyType":[
-                    "PistolPilfererLV0Lootable",
-                    "PistolPilfererLV1Lootable",
-                    "PistolPilfererLV2Lootable",
-                    "PistolPilfererLV3Lootable",
-                    "PistolPilfererLV4Lootable"
-                ],
+                "EnemyType":"PistolPilfererLV4Lootable",
                 "NumTurrets":0,
-                "NumGuards": 4,
+                "NumGuards": 3,
                 "IFFUsed":1
             },
             "Patrols":[
