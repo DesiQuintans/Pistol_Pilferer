@@ -235,13 +235,13 @@
         }
     ],
     "WeaponOptions":[
-        "Sosiggun_Deagle"
+        "Sosiggrenade_Incendiary"
     ],
     "WeaponOptionsSecondary":[
         "SosigMelee_Shield_Riot"
     ],
     "WeaponOptionsTertiary":[
-        "SosigMelee_Tanto"
+        "SosigMelee_StunBaton"
     ],
     "SecondaryChance":1.0,
     "TertiaryChance":1.0,
