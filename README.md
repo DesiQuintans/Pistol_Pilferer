@@ -93,6 +93,28 @@ possibilities, though:
 
 ## CHANGELOG
 
+## v0.0.7 (2022-03-31)
+-   Add dependencies for mods that add lots of handguns, or which add handguns
+    that are important to gameplay progression.
+-   Reduce Hold timer by 10 seconds.
+-   Change Hold 5 boss sosig's loadout: Now carries a baton and an incendiary 
+    grenade. Changed his welder's mask for a gas mask -- a ballistic shield AND
+    a welder's mask was a little tricky to deal with.
+-   Updated loot tables to add support for:
+
+    - SR1MP
+    - ICA_Silverballers
+    - PR_15_Ragun
+    - FNX_45_Tactical
+    - L8-Revoler [sic]
+    - FTW_Arms_MP_Shield
+    - FTW_Arms_Micro_Deagle (both micro and mini variants)
+    - SigSauerP226Series
+    - Taran_Tactical_2011
+    - SIG_M17
+    - Bailiff_410
+    - PBPISTOL
+
 ## v0.0.6 (2022-03-29)
 - Initial release.
 
