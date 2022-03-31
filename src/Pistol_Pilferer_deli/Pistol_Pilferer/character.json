@@ -1193,7 +1193,6 @@
                         "PistolPilfererLV3",
                         "PistolPilfererLV4",
                         "PistolPilfererLV4Shield"
-                        
                     ],
                     "LeaderType":"PistolPilfererLV4",
                     "MinEnemies":3,
@@ -1217,7 +1216,7 @@
                     "PistolPilfererLV2Lootable",
                     "PistolPilfererLV3Lootable",
                     "PistolPilfererLV4Lootable"
-                ]
+                ],
                 "NumTurrets":0,
                 "NumGuards": 4,
                 "IFFUsed":1
