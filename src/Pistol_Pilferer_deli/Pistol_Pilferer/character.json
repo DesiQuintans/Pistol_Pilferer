@@ -757,8 +757,8 @@
                     "ScanTime": 25.0,
                     "WarmupTime":5.0,
                     "IFFUsed":1,
-                    "GrenadeChance":0.0,
-                    "GrenadeType":"Sosiggrenade_Flash",
+                    "GrenadeChance":0.1,
+                    "GrenadeType":"Sosiggrenade_Smoke",
                     "SwarmPlayer":false
                 }
             ],
@@ -837,8 +837,8 @@
                     "ScanTime": 25.0,
                     "WarmupTime":5.0,
                     "IFFUsed":1,
-                    "GrenadeChance":0.0,
-                    "GrenadeType":"Sosiggrenade_Flash",
+                    "GrenadeChance":0.2,
+                    "GrenadeType":"Sosiggrenade_Smoke",
                     "SwarmPlayer":false
                 }
             ],
@@ -919,8 +919,8 @@
                     "ScanTime": 25.0,
                     "WarmupTime":5.0,
                     "IFFUsed":1,
-                    "GrenadeChance":0.0,
-                    "GrenadeType":"Sosiggrenade_Flash",
+                    "GrenadeChance":0.2,
+                    "GrenadeType":"Sosiggrenade_Smoke",
                     "SwarmPlayer":false
                 }
             ],
@@ -1003,8 +1003,8 @@
                     "ScanTime": 25.0,
                     "WarmupTime":5.0,
                     "IFFUsed":1,
-                    "GrenadeChance":0.0,
-                    "GrenadeType":"Sosiggrenade_Flash",
+                    "GrenadeChance":0.2,
+                    "GrenadeType":"Sosiggrenade_Smoke",
                     "SwarmPlayer":false
                 }
             ],
@@ -1087,8 +1087,8 @@
                     "ScanTime": 25.0,
                     "WarmupTime":5.0,
                     "IFFUsed":1,
-                    "GrenadeChance":0.0,
-                    "GrenadeType":"Sosiggrenade_Flash",
+                    "GrenadeChance":0.1,
+                    "GrenadeType":"Sosiggrenade_Frag",
                     "SwarmPlayer":false
                 },
                 {
@@ -1114,7 +1114,7 @@
                     "WarmupTime":5.0,
                     "IFFUsed":1,
                     "GrenadeChance":0.2,
-                    "GrenadeType":"Sosiggrenade_Flash",
+                    "GrenadeType":"Sosiggrenade_Frag",
                     "SwarmPlayer":false
                 }
             ],
@@ -1204,7 +1204,7 @@
                     "WarmupTime":5.0,
                     "IFFUsed":1,
                     "GrenadeChance":0.0,
-                    "GrenadeType":"Sosiggrenade_Flash",
+                    "GrenadeType":"Sosiggrenade_Smoke",
                     "SwarmPlayer":false
                 }
             ],
