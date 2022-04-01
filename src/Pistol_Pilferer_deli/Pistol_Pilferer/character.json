@@ -399,7 +399,7 @@
                 "AutoPopulateGroup":false,
                 "ForceSpawnAllSubPools":false,
                 "IDOverride":[
-        			"MaximSilencerSmallB"
+        			"MaximSilencerSmallA"
                 ],
                 "Eras":[],
                 "Sets":[],
