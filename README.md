@@ -93,6 +93,23 @@ possibilities, though:
 
 ## CHANGELOG
 
+## v0.0.8 (2022-04-01)
+-   Blacklist Incendiary, Armour-Piercing Incendiary, and High Explosive ammo.
+-   Change suppressor from "MaximSilencerSmallB" to "MaximSilencerSmallA".
+-   Change starter weapons. In the end, after much playtesting, I found that it 
+    wasn't very enjoyable to start with single-action revolvers. It just wasn't 
+    appropriate for the enemy numbers. Instead, I think that this is a good 
+    place to put handguns that I found myself immediately selling and never 
+    using: The pocket pistols, the LCRs, the Union French, and so on.
+-   Reduce sosig health to 50 from 100. In line with changing the starter weapons 
+    to pocket pistols, I am reducing sosig health by half. The intention of this 
+    character was always to have one-hit kills with any gun, with the challenge 
+    being to shoot for gaps in armour quickly and accurately. I think that 
+    50 health should be a good balance between the starter guns being useful 
+    (1-2 shots to kill) while still incentivising the player to switch for a 
+    more powerful gun that will give them that guaranteed one-hit kill.
+-   Update the loot pool.
+
 ## v0.0.7 (2022-03-31)
 -   Add dependencies for mods that add lots of handguns, or which add handguns
     that are important to gameplay progression.
