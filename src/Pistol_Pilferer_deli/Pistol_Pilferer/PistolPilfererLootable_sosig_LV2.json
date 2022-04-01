@@ -264,7 +264,6 @@
         "ForceSpawnAllSubPools":false,
         "IDOverride":[
             "Mk4_Hunter",
-            "PMM",
             "Voh_Fort17",
             "G22",
             "BergmannNo5Carbine",
@@ -292,6 +291,7 @@
             "MK23",
             "USPMatch",
             "USPTactical",
+            "FNXG",
             "amt"
         ],
         "Eras":[

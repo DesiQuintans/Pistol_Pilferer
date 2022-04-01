@@ -263,8 +263,6 @@
         "AutoPopulateGroup":false,
         "ForceSpawnAllSubPools":false,
         "IDOverride":[
-            "TT33",
-            "FNXG",
             "FSCE.PL15",
             "potatoesJericho",
             "CZ75Shadow",
@@ -289,8 +287,7 @@
             "Explorer22",
             "Glock23.Muzz",
             "M9A3",
-            "sw659",
-            "DesertEagle44"
+            "sw659"
         ],
         "Eras":[
             

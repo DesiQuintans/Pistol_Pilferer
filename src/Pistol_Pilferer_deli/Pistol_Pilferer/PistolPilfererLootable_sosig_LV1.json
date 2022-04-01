@@ -263,7 +263,6 @@
         "AutoPopulateGroup":false,
         "ForceSpawnAllSubPools":false,
         "IDOverride":[
-            "potatoesgp100",
             "Dev_SW327",
             "SW500",
             "Bull454",
@@ -276,6 +275,7 @@
             "potatoesRothSteyr",
             "Automag2.Muzz",
             "PPK",
+            "TT33",
             "Schwarzlose1898.Muzz",
             "Glock32.Muzz",
             "GunB10",
@@ -289,6 +289,8 @@
             "potatoesWoodsman",
             "PisAutFrommerStop",
             "Dev_vz38",
+            "PMM",
+            "PisMachFrommerStopAuto"
         ],
         "Eras":[
             
