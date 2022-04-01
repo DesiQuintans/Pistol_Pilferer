@@ -74,13 +74,16 @@
             "AutoPopulateGroup":false,
             "ForceSpawnAllSubPools":false,
             "IDOverride":[
-                "M1895Nagant",
-                "M1879",
-                "SingleActionArmy",
-                "C1851Conversion",
-                "Hawk357",
-                "FA83",
-                "BFR"
+                "Pocket1906",
+                "Ruby",
+                "Jetfire950MOP",
+                "nog.astra.300",
+                "potatoesZip22",
+                "potatoesLCR22LR",
+                "potatoesLCR22WMR",
+                "potatoesLCR38",
+                "potatoesLCR9mm",
+                "UnionFrench"
             ],
             "Eras":[],
             "Sets":[],
