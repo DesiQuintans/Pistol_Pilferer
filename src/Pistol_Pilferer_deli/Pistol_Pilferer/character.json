@@ -19,7 +19,17 @@
         "Real"
     ],
     "GlobalAmmoBlacklist":[
-
+        "potatoesAmmo55BoysIncen",
+        "57x28mmCartridgeAPIncendiary",
+        "57x28mmCartridgeIncendiary",
+        "9x19mmCartridge+PAPI",
+        "762x25INCD",
+        "45ACPCartridge+PAPI",
+        "50AEAPI",
+        "50AEHE",
+        "50AEINCD",
+        "45WinMagAPIP.Muzz",
+        "44MagAPI"
     ],
     "MagazineBlacklist":[],
     
