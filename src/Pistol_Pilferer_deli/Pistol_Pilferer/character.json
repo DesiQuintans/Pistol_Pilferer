@@ -750,12 +750,12 @@
             "HoldPhases":[
                 {
                     "Encryptions":[
-                        "Static"
+                        "Regenerative"
                     ],
-                    "MinTargets":1,
-                    "MaxTargets":1,
-                    "MinTargetsLimited":1,
-                    "MaxTargetsLimited":1,
+                    "MinTargets":6,
+                    "MaxTargets":6,
+                    "MinTargetsLimited":6,
+                    "MaxTargetsLimited":6,
                     "EnemyType":[
                         "PistolPilfererLV0"
                     ],
@@ -829,12 +829,12 @@
             "HoldPhases":[
                 {
                     "Encryptions":[
-                        "Static"
+                        "Regenerative"
                     ],
-                    "MinTargets":3,
-                    "MaxTargets":4,
-                    "MinTargetsLimited":2,
-                    "MaxTargetsLimited":3,
+                    "MinTargets":6,
+                    "MaxTargets":6,
+                    "MinTargetsLimited":6,
+                    "MaxTargetsLimited":6,
                     "EnemyType":[
                         "PistolPilfererLV0",
                         "PistolPilfererLV1"
@@ -910,12 +910,12 @@
             "HoldPhases":[
                 {
                     "Encryptions":[
-                        "Static"
+                        "Regenerative"
                     ],
-                    "MinTargets":4,
-                    "MaxTargets":5,
-                    "MinTargetsLimited":3,
-                    "MaxTargetsLimited":4,
+                    "MinTargets":6,
+                    "MaxTargets":6,
+                    "MinTargetsLimited":6,
+                    "MaxTargetsLimited":6,
                     "EnemyType":[
                         "PistolPilfererLV0",
                         "PistolPilfererLV1",
@@ -993,12 +993,12 @@
             "HoldPhases":[
                 {
                     "Encryptions":[
-                        "Static"
+                        "Regenerative"
                     ],
-                    "MinTargets":5,
+                    "MinTargets":6,
                     "MaxTargets":6,
-                    "MinTargetsLimited":4,
-                    "MaxTargetsLimited":5,
+                    "MinTargetsLimited":6,
+                    "MaxTargetsLimited":6,
                     "EnemyType":[
                         "PistolPilfererLV0",
                         "PistolPilfererLV1",
@@ -1078,12 +1078,12 @@
             "HoldPhases":[
                 {
                     "Encryptions":[
-                        "Static"
+                        "Regenerative"
                     ],
-                    "MinTargets":3,
-                    "MaxTargets":4,
-                    "MinTargetsLimited":2,
-                    "MaxTargetsLimited":3,
+                    "MinTargets":6,
+                    "MaxTargets":6,
+                    "MinTargetsLimited":6,
+                    "MaxTargetsLimited":6,
                     "EnemyType":[
                         "PistolPilfererLV1",
                         "PistolPilfererLV2",
@@ -1104,12 +1104,12 @@
                 },
                 {
                     "Encryptions":[
-                        "Static"
+                        "Regenerative"
                     ],
-                    "MinTargets":2,
-                    "MaxTargets":2,
-                    "MinTargetsLimited":2,
-                    "MaxTargetsLimited":2,
+                    "MinTargets":6,
+                    "MaxTargets":6,
+                    "MinTargetsLimited":6,
+                    "MaxTargetsLimited":6,
                     "EnemyType":[
                         "PistolPilfererLV2",
                         "PistolPilfererLV3",
@@ -1191,12 +1191,12 @@
             "HoldPhases":[
                 {
                     "Encryptions":[
-                        "Static"
+                        "Regenerative"
                     ],
-                    "MinTargets":2,
-                    "MaxTargets":2,
-                    "MinTargetsLimited":3,
-                    "MaxTargetsLimited":3,
+                    "MinTargets":6,
+                    "MaxTargets":6,
+                    "MinTargetsLimited":6,
+                    "MaxTargetsLimited":6,
                     "EnemyType":[
                         "PistolPilfererLV0",
                         "PistolPilfererLV1",
