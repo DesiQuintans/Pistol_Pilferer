@@ -42,7 +42,7 @@ Plays best in small maps with multiple routes and limited sightlines such as
         - Rail adapter:     Muzzle-mounting 4-way rail
         - Barrel extender:  Short extender
         - Muzzle brake:     Cutts Compensator
-        - Suppressor:       Maxim Small B
+        - Suppressor:       Maxim Small A
         - Reflex sight:     Compact red-dot (square window)
         - Pistol stock:     TSA-G (adjustable-length stock)
         - Laser module:     Tactical Laser 3 (with bottom rail)
