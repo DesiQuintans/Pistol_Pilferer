@@ -93,6 +93,12 @@ possibilities, though:
 
 ## CHANGELOG
 
+## v0.0.9 (2022-04-02)
+-   Add support for [PSM pistol](https://h3vr.thunderstore.io/package/devyndamonster/PSM/).
+-   Change all encryptions to regenerative (to encourage people to play on 
+    No Targets mode).
+    
+
 ## v0.0.8 (2022-04-01)
 -   Blacklist Incendiary, Armour-Piercing Incendiary, and High Explosive ammo.
 -   Change suppressor from "MaximSilencerSmallB" to "MaximSilencerSmallA".
@@ -109,6 +115,7 @@ possibilities, though:
     (1-2 shots to kill) while still incentivising the player to switch for a 
     more powerful gun that will give them that guaranteed one-hit kill.
 -   Update the loot pool.
+
 
 ## v0.0.7 (2022-03-31)
 -   Add dependencies for mods that add lots of handguns, or which add handguns
