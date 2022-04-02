@@ -866,7 +866,7 @@
                         "PistolPilfererLV0"
                     ],
                     "LeaderType":"PistolPilfererLV0",
-                    "PatrolSize":5,
+                    "PatrolSize": 4,
                     "MaxPatrols": 2,
                     "MaxPatrolsLimited": 1,
                     "PatrolCadence": 42.0,
@@ -947,7 +947,7 @@
                         "PistolPilfererLV1"
                     ],
                     "LeaderType":"PistolPilfererLV1",
-                    "PatrolSize":5,
+                    "PatrolSize": 4,
                     "MaxPatrols": 2,
                     "MaxPatrolsLimited": 1,
                     "PatrolCadence": 42.0,
@@ -1030,7 +1030,7 @@
                         "PistolPilfererLV2"
                     ],
                     "LeaderType":"PistolPilfererLV2",
-                    "PatrolSize":5,
+                    "PatrolSize": 4,
                     "MaxPatrols": 2,
                     "MaxPatrolsLimited": 1,
                     "PatrolCadence": 42.0,
@@ -1115,7 +1115,7 @@
                         "PistolPilfererLV3"
                     ],
                     "LeaderType":"PistolPilfererLV3",
-                    "PatrolSize":5,
+                    "PatrolSize": 4,
                     "MaxPatrols": 2,
                     "MaxPatrolsLimited": 1,
                     "PatrolCadence": 42.0,
@@ -1226,7 +1226,7 @@
                         "PistolPilfererLV4"
                     ],
                     "LeaderType":"PistolPilfererLV4",
-                    "PatrolSize":5,
+                    "PatrolSize": 4,
                     "MaxPatrols": 2,
                     "MaxPatrolsLimited": 1,
                     "PatrolCadence": 42.0,
@@ -1317,7 +1317,7 @@
                         "PistolPilfererLV4Shield"
                     ],
                     "LeaderType":"PistolPilfererLV4",
-                    "PatrolSize":5,
+                    "PatrolSize": 4,
                     "MaxPatrols": 2,
                     "MaxPatrolsLimited": 1,
                     "PatrolCadence": 42.0,
