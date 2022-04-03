@@ -881,7 +881,7 @@
     ],
     "Levels":[
         {
-            "NumOverrideTokensForHold": 0,
+            "NumOverrideTokensForHold": 1,
             "MinSupplyPoints": 2,
             "MaxSupplyPoints": 2,
             "MinConstructors":1,
@@ -960,7 +960,7 @@
             ]
         },
         {
-            "NumOverrideTokensForHold": 0,
+            "NumOverrideTokensForHold": 1,
             "MinSupplyPoints": 2,
             "MaxSupplyPoints": 2,
             "MinConstructors":1,
@@ -1040,9 +1040,9 @@
             ]
         },
         {
-            "NumOverrideTokensForHold": 0,
             "MinSupplyPoints": 3,
             "MaxSupplyPoints": 3,
+            "NumOverrideTokensForHold": 1,
             "MinConstructors":1,
             "MaxConstructors":1,
             "MinPanels":3,
@@ -1121,9 +1121,9 @@
             ]
         },
         {
-            "NumOverrideTokensForHold": 0,
             "MinSupplyPoints": 3,
             "MaxSupplyPoints": 3,
+            "NumOverrideTokensForHold": 1,
             "MinConstructors":1,
             "MaxConstructors":1,
             "MinPanels":3,
@@ -1203,9 +1203,9 @@
             ]
         },
         {
-            "NumOverrideTokensForHold": 0,
             "MinSupplyPoints": 3,
             "MaxSupplyPoints": 3,
+            "NumOverrideTokensForHold": 1,
             "MinConstructors":1,
             "MaxConstructors":1,
             "MinPanels":3,
@@ -1313,9 +1313,9 @@
     ],
     "LevelsEndless":[
         {
-            "NumOverrideTokensForHold": 0,
             "MinSupplyPoints": 4,
             "MaxSupplyPoints": 4,
+            "NumOverrideTokensForHold": 1,
             "MinConstructors":1,
             "MaxConstructors":2,
             "MinPanels":3,
