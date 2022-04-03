@@ -948,7 +948,6 @@
                     "MinTargetsLimited":6,
                     "MaxTargetsLimited":6,
                     "EnemyType":[
-                        "PistolPilfererLV0",
                         "PistolPilfererLV1"
                     ],
                     "LeaderType":"PistolPilfererLV2",
@@ -1029,8 +1028,6 @@
                     "MinTargetsLimited":6,
                     "MaxTargetsLimited":6,
                     "EnemyType":[
-                        "PistolPilfererLV0",
-                        "PistolPilfererLV1",
                         "PistolPilfererLV2"
                     ],
                     "LeaderType":"PistolPilfererLV3",
@@ -1112,9 +1109,6 @@
                     "MinTargetsLimited":6,
                     "MaxTargetsLimited":6,
                     "EnemyType":[
-                        "PistolPilfererLV0",
-                        "PistolPilfererLV1",
-                        "PistolPilfererLV2",
                         "PistolPilfererLV3"
                     ],
                     "LeaderType":"PistolPilfererLV4",
@@ -1197,8 +1191,6 @@
                     "MinTargetsLimited":6,
                     "MaxTargetsLimited":6,
                     "EnemyType":[
-                        "PistolPilfererLV1",
-                        "PistolPilfererLV2",
                         "PistolPilfererLV3"
                     ],
                     "LeaderType":"PistolPilfererLV4",
@@ -1223,7 +1215,6 @@
                     "MinTargetsLimited":6,
                     "MaxTargetsLimited":6,
                     "EnemyType":[
-                        "PistolPilfererLV2",
                         "PistolPilfererLV3",
                         "PistolPilfererLV4"
                     ],
@@ -1310,9 +1301,6 @@
                     "MinTargetsLimited":6,
                     "MaxTargetsLimited":6,
                     "EnemyType":[
-                        "PistolPilfererLV0",
-                        "PistolPilfererLV1",
-                        "PistolPilfererLV2",
                         "PistolPilfererLV3",
                         "PistolPilfererLV4",
                         "PistolPilfererLV4Shield"
