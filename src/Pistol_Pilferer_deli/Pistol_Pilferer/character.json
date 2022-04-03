@@ -168,6 +168,7 @@
             "AutoPopulateGroup":false,
             "ForceSpawnAllSubPools":false,
             "IDOverride":[
+"BergmannSimplex",
 "Ruby",
 "Jetfire950MOP",
 "nog.astra.300",
