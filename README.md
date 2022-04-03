@@ -13,36 +13,22 @@ Supports pretty much all pistol mods on Thunderstore.
 
 **This character is balanced for SPAWNLOCKED AMMO and NO TARGETS only.**
 
-Plays best in small maps with multiple routes and limited sightlines such as 
-'[Hotel Hotlink][hotel]' (sirpotatos) and '[Sanctuary][sanct]' (Muecke).
+Plays best in small maps with multiple routes and limited sightlines such as '[Hotel Hotlink][hotel]' (sirpotatos) and '[Sanctuary][sanct]' (Muecke).
 
 
 ## Tips for players
 
-1.  The penalty for taking damage is heavy (health = 6 tokens, and each supply 
-    point gives you only 3 guns to sell), and the roaming patrols keep constant 
-    pressure on you. Playing this character effectively is about hitting supply 
-    points hard and evading the patrols where you can.
-
-2.  Sosigs don't have much health, so your gun's calibre doesn't really matter. 
-    Surviving holds requires you to shoot accurately at gaps in sosig armour, 
-    and to do it quickly so that you can clear enemies before they pile up. 
-
-3.  Don't forget your smoke grenade. Use it to block dangerous sightlines and 
-    to smoke sosig spawn points to draw them into the open.
-    
-4.  A grapple gun and two flashlight attachments are provided free at the start 
-    of the game, so grab them if you need them for the map you're playing.
-
-5.  Each category in the shop has only one kind of item. I hand-picked the item 
-    in each category so that it works well with any pistol, such as the 
-    suppressor being low so that it won't cover your pistol's iron sights. 
-    The items are:
+1. The penalty for taking damage is heavy (health = 6 tokens, and each supply point gives you only 3 guns to sell), and the roaming patrols keep constant pressure on you. Playing this character effectively is about hitting supply points hard and evading the patrols where you can.
+2. Sosigs don't have much health, so your gun's calibre doesn't really matter. Surviving holds requires you to shoot accurately at gaps in sosig armour, and to do it quickly so that you can clear enemies before they pile up.
+3. Don't forget your smoke grenade. Use it to block dangerous sightlines and to smoke sosig spawn points to draw them into the open.
+4. A grapple gun and two flashlight attachments are provided free at the start of the game, so grab them if you need them for the map you're playing.
+5. Each category in the shop has only one kind of item. I hand-picked the item in each category so that it works well with any pistol, such as the suppressor being low so that it won't cover your pistol's iron sights. The items are:
     
         - Rail adapter:     Muzzle-mounting 4-way rail
         - Barrel extender:  Short extender
         - Muzzle brake:     Cutts Compensator
         - Suppressor:       Maxim Small A
+        - Bayonet:          GrillFork (muzzle-mounted)
         - Reflex sight:     Compact red-dot (square window)
         - Pistol stock:     TSA-G (adjustable-length stock)
         - Laser module:     Tactical Laser 3 (with bottom rail)
@@ -50,15 +36,8 @@ Plays best in small maps with multiple routes and limited sightlines such as
         - Shield:           Ballistic shield (with viewing window)
         - Health:           Health sausage
 
-6.  Sosigs have low base health, but better-armoured sosigs are a little 
-    tougher and behave more aggressively. All sosigs sneak and crawl faster in
-    general. Better sosigs shoot sooner, resist more damage, are harder to stun
-    and suppress, and stay stunned and suppressed for a shorter time (they're
-    braver because of their armour).
-    
-7.  Supply point guards can't move, and can't really fight back against you if 
-    you shoot them fast enough. This is sort of a hack to make sure that they 
-    don't leave the supply points so you don't have to go hunting for them.
+6. Sosigs have low base health, but better-armoured sosigs are a little tougher and behave more aggressively. All sosigs sneak and crawl faster in general. Better sosigs shoot sooner, resist more damage, are harder to stun and suppress, and stay stunned and suppressed for a shorter time (they're braver because of their armour).
+7. Supply point guards can't move, and can't really fight back against you if you shoot them fast enough. This is sort of a hack to make sure that they don't leave the supply points so you don't have to go hunting for them.
 
 
 ---
@@ -67,64 +46,92 @@ Plays best in small maps with multiple routes and limited sightlines such as
 
 ### How do new modded guns get added to Pistol Pilferer?
 
-They're added by name using scripts that I run. The scripts retrieve the 
-metadata of the guns, use that metadata to group the guns into loot pools, and 
-then I update those loot pools in the mod.
+They're added by name using scripts that I run. The scripts retrieve the metadata of the guns, use that metadata to group the guns into loot pools, and then I update those loot pools in the mod.
 
 ## Why don't I ever see a modded gun that I have installed appear as loot?
 
-You could just be unlucky and not have had it drop yet. There are a few other 
-possibilities, though:
+You could just be unlucky and not have had it drop yet. There are a few other possibilities, though:
 
-1.  The mod is new and I haven't updated the character to use it.
-2.  The mod's author did not fill out the gun's metadata properly. My loot pool
-    script needs the fields FirearmSize, FirearmAction, FirearmFeedOptions, 
-    FirearmFiringModes, Capacity, MinCapacityRelated, MaxCapacityRelated, and 
-    DoesUseSpeedLoader to all be filled out. FirearmSize needs to be Pocket or 
-    Pistol, and only pistols and cartridges in the set 'Real' are used by
-    this character.
-3.  The mod **is** in the loot pool, but only one of the cosmetic variants is 
-    listed. I only list one cosmetic variant per mod.
-4.  In rare cases, guns may not be fun to use or they may be too good for the
-    game. For example, I support the FTW_Arms_P50 pistol (it fires from a P90 
-    magazine), but I removed its full-auto variant.
+1. The mod is new and I haven't updated the character to use it.
+2. The mod's author did not fill out the gun's metadata properly. My loot pool script needs the fields FirearmSize, FirearmAction, FirearmFeedOptions, FirearmFiringModes, Capacity, MinCapacityRelated, MaxCapacityRelated, and DoesUseSpeedLoader to all be filled out. FirearmSize needs to be Pocket or Pistol, and only pistols and cartridges in the set 'Real' are used by this character.
+3. The mod **is** in the loot pool, but only one of the cosmetic variants is listed. I only list one cosmetic variant per mod.
+4. In rare cases, guns may not be fun to use or they may be too good for the game. For example, I support the FTW_Arms_P50 pistol (it fires from a P90 magazine), but I removed its full-auto variant.
 
 ---
 
 ## CHANGELOG
 
+## v1.0.0 (2022-04-03)
+
+Thanks to [Jeditobiwan](https://www.twitch.tv/jeditobiwan/) for playing my character! This character doesn't fit your usual play style, but you adapted wonderfully, and I got a bunch of ideas about what I can change about Pistol Pilferer to make it play more smoothly.
+
+- Shrink character's economy to streamline gameplay and drive more interesting decisions.
+
+    - Reduced number of supply points to 2, down from 2-3 depending on level.
+    - Reduced lootable sosigs per supply point to 2, from 3. This means that 20 guns will drop throughout the game, down from 39.
+    - Clearing a Hold now awards you with 1 token.
+    - Token costs of most items reduced to 1 from 3. Magazine upgrader costs are, unfortunately, not adjustable at this time.
+    - Token cost of health and ballistic shield reduced to 2, from 6 and 9 respectively.
+    - Rail adapter and barrel extension are allowed to go on sale from Lv0.
+    
+- Remove Pocket1906 from the starting pool.
+
+- Add Bergmann Simplex to the starting pool.
+    
+- Add Meats_ASP to dependencies. The ASP is one of the few semi-auto pistols that can drop at Level 0 so I wanted it to be installed for sure, plus it's a great mod.
+
+- Reduce patrol size from 5 to 4. Patrols should be dangerous and harrassing, but not deadly.
+
+- Change PatrolCadence to slowly ramp up over the course of the game. The maximum level has the current cadence, 42 seconds, and the lowest level has 50 seconds. This allows some grace to players at the early game.
+
+- Increase WarmupTime to 7 seconds from 5 seconds. A little bit more time to reload and get ready at the start of a Hold.
+
+- Loadout sosigs with handguns and machine pistols only. This one comes from a Twitch chat comment where someone suggested that playing in a larger map might work better, and Jedit speculated that it wouldn't help because some of the sosigs have rifles and they would have an advantage over you.
+
+- Reduce StartingLinkIntegrity greatly. Jedit kept double-tapping enemies to get the visual feedback of their links exploding before moving on, even though the enemies were already dead. This habit probably killed him a few times, so I made the links very weak so that they would explode immediately.
+
+- Match LinkDamage and LinkStagger multipliers to the base game. Rearrange starting item spawns. All non-random items (grapple gun, smoke grenade, flashlights) spawn on the table. The random starting pistol spawns in a pistol case.
+
+- Remove LCR variants from starting gun pool. 4 out of 10 pistols in this pool were LCRs, so players were more likely to get LCRs than anything else.
+
+- Change EnemyType guarding Holds to that level's boss enemy. This change gives players a sneak peek of the upcoming Hold's toughest enemy type.
+
+- Phase out obsolete enemy types as game progresses. Before this change, all previous enemy types could spawn in a Hold, e.g. at Lv3 Hold, Lv0, Lv1, and Lv2 sosigs could spawn, led by a Lv3 sosig leader. This diluted the spawning pool and made the game easier. Now, obsolete sosigs will stop spawning. At Lv3 Hold, for example, only Lv2 sosigs led by Lv3 leaders will spawn.
+
+- Move "M1912P16" to Lv0 loot pool to improve your chance of getting a semi-auto at the start of the game.
+
+- Add bayonet to shop panel. It's the GrillFork because that one seemed to poke sosigs the most easily and consistently compared to the other muzzle- mounted bayonet options.
+
+
 ## v0.0.9 (2022-04-02)
--   Add support for [PSM pistol](https://h3vr.thunderstore.io/package/devyndamonster/PSM/).
--   Change all encryptions to regenerative (to encourage people to play on 
-    No Targets mode).
+
+- Add support for [PSM pistol](https://h3vr.thunderstore.io/package/devyndamonster/PSM/).
+
+- Change all encryptions to regenerative (to encourage people to play on No Targets mode).
     
 
 ## v0.0.8 (2022-04-01)
--   Blacklist Incendiary, Armour-Piercing Incendiary, and High Explosive ammo.
--   Change suppressor from "MaximSilencerSmallB" to "MaximSilencerSmallA".
--   Change starter weapons. In the end, after much playtesting, I found that it 
-    wasn't very enjoyable to start with single-action revolvers. It just wasn't 
-    appropriate for the enemy numbers. Instead, I think that this is a good 
-    place to put handguns that I found myself immediately selling and never 
-    using: The pocket pistols, the LCRs, the Union French, and so on.
--   Reduce sosig health to 50 from 100. In line with changing the starter weapons 
-    to pocket pistols, I am reducing sosig health by half. The intention of this 
-    character was always to have one-hit kills with any gun, with the challenge 
-    being to shoot for gaps in armour quickly and accurately. I think that 
-    50 health should be a good balance between the starter guns being useful 
-    (1-2 shots to kill) while still incentivising the player to switch for a 
-    more powerful gun that will give them that guaranteed one-hit kill.
--   Update the loot pool.
+
+- Blacklist Incendiary, Armour-Piercing Incendiary, and High Explosive ammo.
+
+- Change suppressor from "MaximSilencerSmallB" to "MaximSilencerSmallA".
+
+- Change starter weapons. In the end, after much playtesting, I found that it wasn't very enjoyable to start with single-action revolvers. It just wasn't appropriate for the enemy numbers. Instead, I think that this is a good place to put handguns that I found myself immediately selling and never using: The pocket pistols, the LCRs, the Union French, and so on.
+
+- Reduce sosig health to 50 from 100. In line with changing the starter weapons to pocket pistols, I am reducing sosig health by half. The intention of this character was always to have one-hit kills with any gun, with the challenge being to shoot for gaps in armour quickly and accurately. I think that 50 health should be a good balance between the starter guns being useful (1-2 shots to kill) while still incentivising the player to switch for a more powerful gun that will give them that guaranteed one-hit kill.
+
+- Update the loot pool.
 
 
 ## v0.0.7 (2022-03-31)
--   Add dependencies for mods that add lots of handguns, or which add handguns
-    that are important to gameplay progression.
--   Reduce Hold timer by 10 seconds.
--   Change Hold 5 boss sosig's loadout: Now carries a baton and an incendiary 
-    grenade. Changed his welder's mask for a gas mask -- a ballistic shield AND
-    a welder's mask was a little tricky to deal with.
--   Updated loot tables to add support for:
+
+- Add dependencies for mods that add lots of handguns, or which add handguns that are important to gameplay progression.
+
+- Reduce Hold timer by 10 seconds.
+
+- Change Hold 5 boss sosig's loadout: Now carries a baton and an incendiary grenade. Changed his welder's mask for a gas mask -- a ballistic shield AND a welder's mask was a little tricky to deal with.
+
+- Updated loot tables to add support for:
 
     - SR1MP
     - ICA_Silverballers
@@ -140,6 +147,7 @@ possibilities, though:
     - PBPISTOL
 
 ## v0.0.6 (2022-03-29)
+
 - Initial release.
 
 
