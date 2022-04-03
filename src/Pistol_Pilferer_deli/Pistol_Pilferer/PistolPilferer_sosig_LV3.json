@@ -136,13 +136,13 @@
             "DamMult_Thermal":1.0,
             "DamMult_Chilling":1.0,
             "DamMult_EMP":1.0,
-            "LinkDamageMultipliers":[
+            "LinkDamageMultipliers": [
                 10.0,
                 2.0,
                 1.2,
                 0.8
             ],
-            "LinkStaggerMultipliers":[
+            "LinkStaggerMultipliers": [
                 4.0,
                 1.0,
                 1.0,
