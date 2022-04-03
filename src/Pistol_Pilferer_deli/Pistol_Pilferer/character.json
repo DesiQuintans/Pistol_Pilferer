@@ -546,8 +546,55 @@
             },
             "BackupGroup": null
         },
+        {
+            "Type":"Firearm",
+            "IconName":"Icon_Bayonet.png",
+            "TokenCost":3,
+            "TokenCostLimited":3,
+            "MinLevelAppears":0,
+            "MaxLevelAppears":99,
+            "SpawnsInSmallCase":false,
+            "SpawnsInLargeCase":false,
+            "PrimaryGroup":{
+                "Category":"Attachment",
+                "Rarity":1.0,
+                "RequiredQuest":"",
+                "ItemsToSpawn":1,
+                "MinAmmoCapacity":-1,
+                "MaxAmmoCapacity":-1,
+                "NumMagsSpawned":3,
+                "NumClipsSpawned":3,
+                "NumRoundsSpawned":3,
+                "SpawnMagAndClip":true,
+                "BespokeAttachmentChance":0.0,
+                "IsCompatibleMagazine":false,
+                "AutoPopulateGroup":false,
+                "ForceSpawnAllSubPools":false,
+                "IDOverride":[
+        			"BayonetGrillFork"
+                ],
+                "Eras":[],
+                "Sets":[],
+                "Sizes":[],
+                "Actions":[],
+                "Modes":[],
+                "ExcludedModes":[],
+                "FeedOptions":[],
+                "MountsAvailable":[],
+                "RoundPowers":[],
+                "Features":[],
+                "MeleeStyles":[],
+                "MeleeHandedness":[],
+                "MountTypes":[],
+                "PowerupTypes":[],
+                "ThrownTypes":[],
+                "ThrownDamageTypes":[],
+                "SubGroups":[]
+            },
+            "BackupGroup": null
+        },
         
-       {
+        {
             "Type":"Equipment",
             "IconName":"Icon_ReflexSight.png",
             "TokenCost":3,
