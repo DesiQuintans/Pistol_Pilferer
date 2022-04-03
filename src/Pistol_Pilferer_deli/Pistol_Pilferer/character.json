@@ -12,7 +12,7 @@
     "HasTertiaryWeapon":true,
     "HasPrimaryItem":true,
     "HasSecondaryItem":true,
-    "HasTertiaryItem":false,
+    "HasTertiaryItem":true,
     "HasShield":false,
     "ValidAmmoEras":[],
     "ValidAmmoSets":[
