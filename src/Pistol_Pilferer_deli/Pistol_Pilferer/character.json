@@ -7,11 +7,11 @@
     "ForceAllAgentWeapons":false,
     "ForceDisableOutfitFunctionality":false,
     "UsesPurchasePriceIncrement":false,
-    "HasPrimaryWeapon":true,
+    "HasPrimaryWeapon":false,
     "HasSecondaryWeapon":true,
     "HasTertiaryWeapon":true,
     "HasPrimaryItem":true,
-    "HasSecondaryItem":false,
+    "HasSecondaryItem":true,
     "HasTertiaryItem":false,
     "HasShield":false,
     "ValidAmmoEras":[],
@@ -148,7 +148,11 @@
         "SubGroups":[]
     },
     "PrimaryWeapon":{
-        "PrimaryGroup":{
+        "PrimaryGroup":null,
+        "BackupGroup":null
+    },
+    "SecondaryWeapon":{
+        "PrimaryGroup": {
             "Category":"Firearm",
             "Rarity":1.0,
             "RequiredQuest":null,
@@ -157,7 +161,7 @@
             "MaxAmmoCapacity":20,
             "NumMagsSpawned":2,
             "NumClipsSpawned":2,
-            "NumRoundsSpawned":8,
+            "NumRoundsSpawned":12,
             "SpawnMagAndClip":false,
             "BespokeAttachmentChance":0.0,
             "IsCompatibleMagazine":false,
@@ -195,7 +199,7 @@
         },
         "BackupGroup":null
     },
-    "SecondaryWeapon":{
+    "TertiaryWeapon":{
         "PrimaryGroup": {
             "Category":"Firearm",
             "Rarity":1.0,
@@ -203,9 +207,9 @@
             "ItemsToSpawn":1,
             "MinAmmoCapacity":1,
             "MaxAmmoCapacity":20,
-            "NumMagsSpawned":1,
-            "NumClipsSpawned":1,
-            "NumRoundsSpawned":1,
+            "NumMagsSpawned":0
+            "NumClipsSpawned":0,
+            "NumRoundsSpawned":0,
             "SpawnMagAndClip":true,
             "BespokeAttachmentChance":0.0,
             "IsCompatibleMagazine":false,
@@ -234,7 +238,7 @@
         },
         "BackupGroup":null
     },
-    "TertiaryWeapon":{
+    "PrimaryItem":{
         "PrimaryGroup": {
     		"Category": "Firearm",
     		"Rarity": 1.0,
@@ -271,9 +275,48 @@
     		"ThrownDamageTypes": [],
     		"SubGroups": []
         },
+        "BackupGroup": null
+    },
+    "SecondaryItem":{
+        "PrimaryGroup": {
+    		"Category": "SpeedLoader",
+    		"Rarity": 1.0,
+    		"RequiredQuest": null,
+    		"ItemsToSpawn": 2,
+    		"MinAmmoCapacity": -1,
+    		"MaxAmmoCapacity": -1,
+    		"NumMagsSpawned": 0,
+    		"NumClipsSpawned": 0,
+    		"NumRoundsSpawned": 0,
+    		"SpawnMagAndClip": false,
+    		"BespokeAttachmentChance": 0.0,
+    		"IsCompatibleMagazine": false,
+    		"AutoPopulateGroup": false,
+    		"ForceSpawnAllSubPools": false,
+    		"IDOverride": [
+			    "MagazineGrappleGun"
+    		],
+    		"Eras": [],
+    		"Sets": [],
+    		"Sizes": [],
+    		"Actions": [],
+    		"Modes": [],
+    		"ExcludedModes": [],
+    		"FeedOptions": [],
+    		"MountsAvailable": [],
+    		"RoundPowers": [],
+    		"Features": [],
+    		"MeleeStyles": [],
+    		"MeleeHandedness": [],
+    		"MountTypes": [],
+    		"PowerupTypes": null,
+    		"ThrownTypes": [],
+    		"ThrownDamageTypes": [],
+    		"SubGroups": []
+        },
         "BackupGroup":null
     },
-    "PrimaryItem":{
+    "TertiaryItem":{
         "PrimaryGroup": {
     		"Category": "Attachment",
     		"Rarity": 1.0,
@@ -310,14 +353,6 @@
     		"ThrownDamageTypes": [],
     		"SubGroups": []
         },
-        "BackupGroup": null
-    },
-    "SecondaryItem":{
-        "PrimaryGroup": null,
-        "BackupGroup":null
-    },
-    "TertiaryItem":{
-        "PrimaryGroup": null,
         "BackupGroup":null
     },
     "Shield":{
