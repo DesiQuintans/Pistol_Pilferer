@@ -854,9 +854,9 @@
             ],
             "TakeChallenge":{
                 "TurretType":"SMG",
-                "EnemyType":"PistolPilfererLV0",
+                "EnemyType":"PistolPilfererLV1",
                 "NumTurrets":0,
-                "NumGuards": 2,
+                "NumGuards": 3,
                 "IFFUsed":1
             },
             "HoldPhases":[
@@ -933,9 +933,9 @@
             ],
             "TakeChallenge":{
                 "TurretType":"SMG",
-                "EnemyType":"PistolPilfererLV1",
+                "EnemyType":"PistolPilfererLV2",
                 "NumTurrets":0,
-                "NumGuards": 6,
+                "NumGuards": 3,
                 "IFFUsed":1
             },
             "HoldPhases":[
@@ -1014,9 +1014,9 @@
             ],
             "TakeChallenge":{
                 "TurretType":"SMG",
-                "EnemyType":"PistolPilfererLV2",
+                "EnemyType":"PistolPilfererLV3",
                 "NumTurrets":0,
-                "NumGuards":6,
+                "NumGuards":3,
                 "IFFUsed":1
             },
             "HoldPhases":[
@@ -1097,9 +1097,9 @@
             ],
             "TakeChallenge":{
                 "TurretType":"SMG",
-                "EnemyType":"PistolPilfererLV3",
+                "EnemyType":"PistolPilfererLV4",
                 "NumTurrets":0,
-                "NumGuards":6,
+                "NumGuards":3,
                 "IFFUsed":1
             },
             "HoldPhases":[
@@ -1182,9 +1182,9 @@
             ],
             "TakeChallenge":{
                 "TurretType":"SMG",
-                "EnemyType":"PistolPilfererLV4",
+                "EnemyType":"PistolPilfererLV4Shield",
                 "NumTurrets":0,
-                "NumGuards": 5,
+                "NumGuards": 3,
                 "IFFUsed":1
             },
             "HoldPhases":[
@@ -1295,9 +1295,9 @@
             ],
             "TakeChallenge":{
                 "TurretType":"Machinegun",
-                "EnemyType":"PistolPilfererLV4",
+                "EnemyType":"PistolPilfererLV4Shield",
                 "NumTurrets":0,
-                "NumGuards":5,
+                "NumGuards":3,
                 "IFFUsed":1
             },
             "HoldPhases":[
