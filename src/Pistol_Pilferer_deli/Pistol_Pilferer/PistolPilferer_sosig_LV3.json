@@ -203,9 +203,9 @@
             "Chance_Headwear":1.0,
             "ForceWearAllHead":false,
             "Eyewear":[
-                
+                "SosigAccessory_Tactical_Goggles_Desert"
             ],
-            "Chance_Eyewear":0.0,
+            "Chance_Eyewear":1.0,
             "ForceWearAllEye":false,
             "Facewear":[
                 "SosigAccessory_Tactical_GasMask3"
