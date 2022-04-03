@@ -198,7 +198,7 @@
     "OutfitConfigs":[
         {
             "Headwear":[
-                "Sosigaccesory_ww2_helmet_brown"
+                "SosigAccessory_MountainMeat_Millitarycap_Yellow"
             ],
             "Chance_Headwear":1.0,
             "ForceWearAllHead":false,
@@ -213,17 +213,17 @@
             "Chance_Facewear":0.5,
             "ForceWearAllFace":false,
             "Torsowear":[
-                "SosigAccessory_Tactical_HeavyArmour_Desert"
+                "SosigAccessory_Tactical_HeavyPants_RedYellow"
             ],
             "Chance_Torsowear":1.0,
             "ForceWearAllTorso":false,
             "Pantswear":[
-                "SosigAccessory_Tactical_HeavyPants_Desert"
+                "SosigAccessory_Tactical_HeavyPants_RedYellow"
             ],
             "Chance_Pantswear":1.0,
             "ForceWearAllPants":false,
             "Pantswear_Lower":[
-                "SosigAccessory_Tactical_HeavyPants_Desert"
+                "SosigAccessory_Tactical_HeavyPants_RedYellow"
             ],
             "Chance_Pantswear_Lower":1.0,
             "ForceWearAllPantsLower":false,
