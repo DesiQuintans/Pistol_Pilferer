@@ -263,6 +263,7 @@
         "AutoPopulateGroup":false,
         "ForceSpawnAllSubPools":false,
         "IDOverride":[
+"USPTactical",
 "FNXG",
 "FSCE.PL15",
 "potatoesJericho",
@@ -286,8 +287,8 @@
 "1911Commander",
 "potatoesruger57",
 "Explorer22",
-"Glock23.Muzz",
-"sw659"
+"sw659",
+"UziPro"
         ],
         "Eras":[
             

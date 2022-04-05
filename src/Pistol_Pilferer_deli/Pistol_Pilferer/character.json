@@ -168,13 +168,12 @@
             "AutoPopulateGroup":false,
             "ForceSpawnAllSubPools":false,
             "IDOverride":[
-"BergmannSimplex",
 "Ruby",
 "Jetfire950MOP",
 "nog.astra.300",
+"BergmannSimplex",
 "potatoesZip22",
-"potatoesLCR22WMR",
-"UnionFrench"
+"potatoesLCR22WMR"
             ],
             "Eras":[],
             "Sets":[],
