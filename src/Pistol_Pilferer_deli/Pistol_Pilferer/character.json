@@ -792,8 +792,8 @@
         {
             "Type":"Storage",
             "IconName":"Icon_Health.png",
-            "TokenCost":3,
-            "TokenCostLimited":3,
+            "TokenCost":4,
+            "TokenCostLimited":4,
             "MinLevelAppears":0,
             "MaxLevelAppears":99,
             "SpawnsInSmallCase":false,
