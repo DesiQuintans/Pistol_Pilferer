@@ -13,7 +13,7 @@ Supports pretty much all pistol mods on Thunderstore.
 
 **This character is balanced for SPAWNLOCKED AMMO and NO TARGETS only.**
 
-Plays best in small maps with multiple routes and limited sightlines such as '[Hotel Hotlink][hotel]' (sirpotatos) and '[Sanctuary][sanct]' (Muecke).
+Plays best in small/mid maps with multiple routes and limited sightlines such as '[Hotel Hotlink][hotel]' (sirpotatos) and '[Sanctuary][sanct]' (Muecke).
 
 
 ## Tips for players
@@ -57,7 +57,9 @@ You could just be unlucky and not have had it drop yet. There are a few other po
 3. The mod **is** in the loot pool, but only one of the cosmetic variants is listed. I only list one cosmetic variant per mod.
 4. In rare cases, guns may not be fun to use or they may be too good for the game. For example, I support the FTW_Arms_P50 pistol (it fires from a P90 magazine), but I removed its full-auto variant.
 
+
 ---
+
 
 ## CHANGELOG
 
