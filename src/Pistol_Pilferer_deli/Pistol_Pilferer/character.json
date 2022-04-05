@@ -1106,7 +1106,6 @@
             "Patrols":[
                 {
                     "EnemyType":[
-                        "PistolPilfererLV0",
                         "PistolPilfererLV1",
                         "PistolPilfererLV2"
                     ],
@@ -1187,8 +1186,6 @@
             "Patrols":[
                 {
                     "EnemyType":[
-                        "PistolPilfererLV0",
-                        "PistolPilfererLV1",
                         "PistolPilfererLV2",
                         "PistolPilfererLV3"
                     ],
@@ -1294,9 +1291,6 @@
             "Patrols":[
                 {
                     "EnemyType":[
-                        "PistolPilfererLV0",
-                        "PistolPilfererLV1",
-                        "PistolPilfererLV2",
                         "PistolPilfererLV3",
                         "PistolPilfererLV4"
                     ],
@@ -1381,9 +1375,6 @@
             "Patrols":[
                 {
                     "EnemyType":[
-                        "PistolPilfererLV0",
-                        "PistolPilfererLV1",
-                        "PistolPilfererLV2",
                         "PistolPilfererLV3",
                         "PistolPilfererLV4",
                         "PistolPilfererLV4Shield"
