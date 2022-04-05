@@ -2,7 +2,7 @@
     "DisplayName":"Pistol Pilferer",
     "Description":"Guards at supply points drop pistols. Fast holds. Sosigs die instantly if hit in unarmoured spots. Short- and mid-distance maps play best.\nSPAWNLOCK and NO TARGETS only. v{{ ver }}",
     "CharacterGroup": 2,
-    "TableID":"PistolPilfererv200",
+    "TableID":"PistolPilferer",
     "StartingTokens": 0,
     "ForceAllAgentWeapons":false,
     "ForceDisableOutfitFunctionality":false,
