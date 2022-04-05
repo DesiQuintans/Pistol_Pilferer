@@ -786,8 +786,8 @@
         {
             "Type":"Storage",
             "IconName":"Icon_Health.png",
-            "TokenCost":2,
-            "TokenCostLimited":2,
+            "TokenCost":3,
+            "TokenCostLimited":3,
             "MinLevelAppears":0,
             "MaxLevelAppears":99,
             "SpawnsInSmallCase":false,
@@ -833,8 +833,8 @@
         {
             "Type":"Storage",
             "IconName":"Icon_BallisticShield.png",
-            "TokenCost":2,
-            "TokenCostLimited":2,
+            "TokenCost":4,
+            "TokenCostLimited":4,
             "MinLevelAppears":3,
             "MaxLevelAppears":99,
             "SpawnsInSmallCase":false,
