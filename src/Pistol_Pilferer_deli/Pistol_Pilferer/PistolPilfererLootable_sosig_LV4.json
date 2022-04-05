@@ -210,7 +210,7 @@
             "Facewear":[
                 "SosigAccessory_Tactical_WelderMask_RedYellow"
             ],
-            "Chance_Facewear":0.5,
+            "Chance_Facewear":1.0,
             "ForceWearAllFace":false,
             "Torsowear":[
                 "SosigAccessory_Tactical_HeavyPants_RedYellow"
