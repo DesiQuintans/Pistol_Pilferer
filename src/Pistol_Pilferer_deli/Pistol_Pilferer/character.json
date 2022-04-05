@@ -1384,7 +1384,7 @@
                     "MaxPatrols": 4,
                     "MaxPatrolsLimited": 4,
                     "PatrolCadence": 42.0,
-                    "PatrolCadenceLimited": 120.0,
+                    "PatrolCadenceLimited": 42.0,
                     "IFFUsed":1,
                     "SwarmPlayer":true,
                     "AssualtSpeed":"Running",
