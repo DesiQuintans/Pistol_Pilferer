@@ -2,7 +2,7 @@
     "DisplayName":"Pistol Pilferer",
     "Description":"Guards at supply points drop pistols. Short, frantic holds. Non-random shop pools. Small maps with short sightlines play best.\nSPAWNLOCK and NO TARGETS only. v{{ ver }}",
     "CharacterGroup": 2,
-    "TableID":"PistolPilferer",
+    "TableID":"PistolPilfererv200",
     "StartingTokens": 0,
     "ForceAllAgentWeapons":false,
     "ForceDisableOutfitFunctionality":false,
