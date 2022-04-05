@@ -9,6 +9,8 @@ Guards at supply points (the yellow/red ones with backpacks) drop new pistols.
 
 Sell unwanted pistols to get tokens for attachments and healing.
 
+Enemies die instantly when they are shot in unarmoured spots. Sosigs wear better armour as the game progresses.
+
 Supports pretty much all pistol mods on Thunderstore.
 
 **This character is balanced for SPAWNLOCKED AMMO and NO TARGETS only.**
