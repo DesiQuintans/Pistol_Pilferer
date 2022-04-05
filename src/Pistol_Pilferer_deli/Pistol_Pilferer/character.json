@@ -1313,10 +1313,10 @@
     "LevelsEndless":[
         {
             "NumOverrideTokensForHold": 0,
-            "MinSupplyPoints": 2,
-            "MaxSupplyPoints": 2,
+            "MinSupplyPoints": 3,
+            "MaxSupplyPoints": 3,
             "MinConstructors":1,
-            "MaxConstructors":2,
+            "MaxConstructors":1,
             "MinPanels":3,
             "MaxPanels":3,
             "MinBoxesSpawned":0,
