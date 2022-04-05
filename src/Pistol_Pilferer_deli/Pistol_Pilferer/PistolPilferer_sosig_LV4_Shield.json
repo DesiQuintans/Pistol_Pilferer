@@ -235,16 +235,16 @@
         }
     ],
     "WeaponOptions":[
-        "Sosiggrenade_Incendiary"
+        "SosigMelee_StunBaton"
     ],
     "WeaponOptionsSecondary":[
         "SosigMelee_Shield_Riot"
     ],
     "WeaponOptionsTertiary":[
-        "SosigMelee_StunBaton"
+        "Sosiggrenade_Incendiary"
     ],
     "SecondaryChance":1.0,
-    "TertiaryChance":1.0,
+    "TertiaryChance":0.5,
     "DroppedLootChance":0.0,
     "DroppedObjectPool":{
         "Category":"Uncategorized",
