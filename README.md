@@ -46,10 +46,6 @@ Plays best in small/mid maps with multiple routes and limited sightlines such as
 
 ## Frequently Asked Questions
 
-### How do new modded guns get added to Pistol Pilferer?
-
-They're added by name using scripts that I run. The scripts retrieve the metadata of the guns, use that metadata to group the guns into loot pools, and then I update those loot pools in the mod.
-
 ## Why don't I ever see a modded gun that I have installed appear as loot?
 
 You could just be unlucky and not have had it drop yet. There are a few other possibilities, though:
@@ -65,7 +61,38 @@ You could just be unlucky and not have had it drop yet. There are a few other po
 
 ## CHANGELOG
 
-## v1.0.0 (2022-04-03)
+
+### v1.1.0 (2022-04-05)
+
+- Major rethinking of loot drop pools:
+    
+    - Starter weapons are now the worst auto- or double-action revolvers, rather than pocket pistols. Starting with mag-fed pistols was too good and led to me skipping the revolvers nearly every time.
+    - Pocket pistols are folded into Lv0's pool to give players a better chance of getting a mag-fed pistol before Hold 1. Nearly half of Lv0's pool is box mag or stripper-fed pistols now.
+    - Rearranged the pools to take advantage of pistols that share magazines. Starting from Lv1, four pistol systems can drop: M1911 .45 compatible, Glock 9x19mm compatible, Glock .40 compatible, and Beretta 9x19mm compatible. Newer models of guns in these systems can spawn as the game progresses. Each of these also has a machine pistol equivalent that has a chance to spawn at Lv4. This means that you can try to plan your build around a particular magazine type as well as calibre.
+    - Add support for [FTW Arms SA Hellcat](https://h3vr.thunderstore.io/package/Andrew_FTW/FTW_Arms_SA_Hellcat/) mod.
+
+- More forgiving Hold wave spawn timing in the early game. Instead of all Holds having a wave spawn delay of 9 seconds, Holds now have a delay of 14-10 seconds depending on level.
+
+- Reduce LinkIntegrity further. All links were weakened, but this change was done to make the chest links easier to explode in particular.
+
+- Note that even though API and Incendiary ammo are blacklisted in the character, that they can still spawn in through the AmmoReloader panel. Issue here: <https://github.com/devyndamonster/TakeAndHoldTweaker/issues/96>.
+
+- Phase out obsolete (lightly-armoured) sosigs in patrols as the game progresses.
+
+- Fixed cases where Level 4 sosigs sometimes didn't wear welding masks
+
+- Removed gas mask from Level 4 Shield bosses -- they're already tough enough.
+
+- Made Level 4 Shield bosses carry an incendiary grenade 50% of the time instead of 100%.
+
+- Continued tweaks to the economy to shrink it as much as possible.
+
+    - Cost of health and ballistic shield raised to 4, from 2.
+    - Clearing a Hold no longer awards you with any tokens.
+
+
+
+### v1.0.0 (2022-04-03)
 
 Thanks to [Jeditobiwan](https://www.twitch.tv/jeditobiwan/) for playing my character! This character doesn't fit your usual play style, but you adapted wonderfully, and I got a bunch of ideas about what I can change about Pistol Pilferer to make it play more smoothly.
 
@@ -109,14 +136,14 @@ Thanks to [Jeditobiwan](https://www.twitch.tv/jeditobiwan/) for playing my chara
 - Add bayonet to shop panel. It's the GrillFork because that one seemed to poke sosigs the most easily and consistently compared to the other muzzle- mounted bayonet options.
 
 
-## v0.0.9 (2022-04-02)
+### v0.0.9 (2022-04-02)
 
 - Add support for [PSM pistol](https://h3vr.thunderstore.io/package/devyndamonster/PSM/).
 
 - Change all encryptions to regenerative (to encourage people to play on No Targets mode).
     
 
-## v0.0.8 (2022-04-01)
+### v0.0.8 (2022-04-01)
 
 - Blacklist Incendiary, Armour-Piercing Incendiary, and High Explosive ammo.
 
@@ -129,7 +156,7 @@ Thanks to [Jeditobiwan](https://www.twitch.tv/jeditobiwan/) for playing my chara
 - Update the loot pool.
 
 
-## v0.0.7 (2022-03-31)
+### v0.0.7 (2022-03-31)
 
 - Add dependencies for mods that add lots of handguns, or which add handguns that are important to gameplay progression.
 
@@ -152,7 +179,7 @@ Thanks to [Jeditobiwan](https://www.twitch.tv/jeditobiwan/) for playing my chara
     - Bailiff_410
     - PBPISTOL
 
-## v0.0.6 (2022-03-29)
+### v0.0.6 (2022-03-29)
 
 - Initial release.
 
