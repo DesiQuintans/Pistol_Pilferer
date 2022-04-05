@@ -18,7 +18,7 @@ Plays best in small maps with multiple routes and limited sightlines such as '[H
 
 ## Tips for players
 
-1. The penalty for taking damage is heavy (health = 6 tokens, and each supply point gives you only 3 guns to sell), and the roaming patrols keep constant pressure on you. Playing this character effectively is about hitting supply points hard and evading the patrols where you can.
+1. The penalty for taking damage is heavy, and the roaming patrols keep constant pressure on you. Playing this character effectively is about hitting supply points hard and evading the patrols where you can.
 2. Sosigs don't have much health, so your gun's calibre doesn't really matter. Surviving holds requires you to shoot accurately at gaps in sosig armour, and to do it quickly so that you can clear enemies before they pile up.
 3. Don't forget your smoke grenade. Use it to block dangerous sightlines and to smoke sosig spawn points to draw them into the open.
 4. A grapple gun and two flashlight attachments are provided free at the start of the game, so grab them if you need them for the map you're playing.
@@ -90,7 +90,9 @@ Thanks to [Jeditobiwan](https://www.twitch.tv/jeditobiwan/) for playing my chara
 
 - Reduce StartingLinkIntegrity greatly. Jedit kept double-tapping enemies to get the visual feedback of their links exploding before moving on, even though the enemies were already dead. This habit probably killed him a few times, so I made the links very weak so that they would explode immediately.
 
-- Match LinkDamage and LinkStagger multipliers to the base game. Rearrange starting item spawns. All non-random items (grapple gun, smoke grenade, flashlights) spawn on the table. The random starting pistol spawns in a pistol case.
+- Match LinkDamage and LinkStagger multipliers to the base game. 
+
+- Rearrange starting item spawns. All non-random items (grapple gun, smoke grenade, flashlights) spawn on the table. The random starting pistol spawns in a pistol case.
 
 - Remove LCR variants from starting gun pool. 4 out of 10 pistols in this pool were LCRs, so players were more likely to get LCRs than anything else.
 
