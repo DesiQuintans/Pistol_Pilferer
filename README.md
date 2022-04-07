@@ -32,9 +32,10 @@ Plays best in small/mid maps with multiple routes and limited sightlines such as
         - Suppressor:       Maxim Small A
         - Bayonet:          GrillFork (muzzle-mounted)
         - Reflex sight:     Compact red-dot (square window)
+        - Claymore:         Laser claymore mine
         - Pistol stock:     TSA-G (adjustable-length stock)
         - Laser module:     Tactical Laser 3 (with bottom rail)
-        - Foregrip:         Valk (small, looks foldable)
+        - Foregrip:         Mini (small and cylindrical)
         - Shield:           Ballistic shield (with viewing window)
         - Health:           Health sausage
 
@@ -60,6 +61,20 @@ You could just be unlucky and not have had it drop yet. There are a few other po
 
 
 ## CHANGELOG
+
+### v1.2.0 (2022-04-07)
+
+- Reduce Sosig mustard to 10 from 50 to make them bleed out faster.
+
+- Double the multipliers on the damage that sosigs take so that they more reliably explode from head shots (and sometimes from body shots, depending on round power).
+
+- Replace the foregrip model (the Valk) with the Mini (much smaller).
+
+- Allow all shop items to spawn at any level. Previously some items (shield, laser, stock) were gated to only appear at Lv3 onwards.
+
+- Add Claymore laser mine to shop as a high-priced item.
+
+- Rearrange shop item categories so that (for example) multiple muzzle accessories don't spawn all at once.
 
 
 ### v1.1.0 (2022-04-05)
