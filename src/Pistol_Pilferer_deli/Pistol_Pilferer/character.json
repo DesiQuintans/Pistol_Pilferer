@@ -354,7 +354,8 @@
     		"ThrownTypes": [],
     		"ThrownDamageTypes": [],
     		"SubGroups": []
-        },
+        },            "TokenCost": 2,
+            "TokenCostLimited": 2,
         "BackupGroup":null
     },
     "Shield":{
@@ -365,8 +366,8 @@
         {
             "Type":"Locomotion",
             "IconName":"Icon_MuzzleBrake.png",
-            "TokenCost":1,
-            "TokenCostLimited":1,
+            "TokenCost": 2,
+            "TokenCostLimited": 2,
             "MinLevelAppears":0,
             "MaxLevelAppears":99,
             "SpawnsInSmallCase":false,
@@ -412,8 +413,8 @@
         {
             "Type":"Locomotion",
             "IconName":"Icon_Suppressor.png",
-            "TokenCost":1,
-            "TokenCostLimited":1,
+            "TokenCost": 2,
+            "TokenCostLimited": 2,
             "MinLevelAppears":0,
             "MaxLevelAppears":99,
             "SpawnsInSmallCase":false,
@@ -459,8 +460,8 @@
         {
             "Type":"Locomotion",
             "IconName":"Icon_Bayonet.png",
-            "TokenCost":1,
-            "TokenCostLimited":1,
+            "TokenCost": 2,
+            "TokenCostLimited": 2,
             "MinLevelAppears":0,
             "MaxLevelAppears":99,
             "SpawnsInSmallCase":false,
@@ -507,8 +508,8 @@
         {
             "Type":"Firearm",
             "IconName":"Icon_ReflexSight.png",
-            "TokenCost":1,
-            "TokenCostLimited":1,
+            "TokenCost": 2,
+            "TokenCostLimited": 2,
             "MinLevelAppears":0,
             "MaxLevelAppears":99,
             "SpawnsInSmallCase":false,
@@ -554,8 +555,8 @@
         {
             "Type":"Firearm",
             "IconName":"Icon_Laser.png",
-            "TokenCost":1,
-            "TokenCostLimited":1,
+            "TokenCost": 2,
+            "TokenCostLimited": 2,
             "MinLevelAppears":0,
             "MaxLevelAppears":99,
             "SpawnsInSmallCase":false,
@@ -601,8 +602,8 @@
         {
             "Type":"Firearm",
             "IconName":"Icon_Foregrip.png",
-            "TokenCost":1,
-            "TokenCostLimited":1,
+            "TokenCost": 2,
+            "TokenCostLimited": 2,
             "MinLevelAppears":0,
             "MaxLevelAppears":99,
             "SpawnsInSmallCase":false,
@@ -649,8 +650,8 @@
         {
             "Type":"Equipment",
             "IconName":"Icon_RailAdapter.png",
-            "TokenCost":1,
-            "TokenCostLimited":1,
+            "TokenCost": 2,
+            "TokenCostLimited": 2,
             "MinLevelAppears":0,
             "MaxLevelAppears":99,
             "SpawnsInSmallCase":false,
@@ -696,8 +697,8 @@
         {
             "Type":"Equipment",
             "IconName":"Icon_BarrelExtension.png",
-            "TokenCost":1,
-            "TokenCostLimited":1,
+            "TokenCost": 2,
+            "TokenCostLimited": 2,
             "MinLevelAppears":0,
             "MaxLevelAppears":99,
             "SpawnsInSmallCase":false,
@@ -838,8 +839,8 @@
         {
             "Type":"Consumable",
             "IconName":"Icon_AttachableStock.png",
-            "TokenCost":1,
-            "TokenCostLimited":1,
+            "TokenCost": 2,
+            "TokenCostLimited": 2,
             "MinLevelAppears":0,
             "MaxLevelAppears":99,
             "SpawnsInSmallCase":false,
