@@ -41,11 +41,11 @@
             "DamMult_Thermal":0.90,
             "DamMult_Chilling":0.90,
             "DamMult_EMP":0.90,
-            "LinkDamageMultipliers":[
-                10.0,
-                2.0,
-                1.2,
-                0.8
+            "LinkDamageMultipliers": [
+                20.0,
+                4.0,
+                2.4,
+                1.6
             ],
             "LinkStaggerMultipliers":[
                 4.0,
@@ -136,11 +136,11 @@
             "DamMult_Thermal":0.90,
             "DamMult_Chilling":0.90,
             "DamMult_EMP":0.90,
-            "LinkDamageMultipliers":[
-                10.0,
-                2.0,
-                1.2,
-                0.8
+            "LinkDamageMultipliers": [
+                20.0,
+                4.0,
+                2.4,
+                1.6
             ],
             "LinkStaggerMultipliers":[
                 4.0,

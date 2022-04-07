@@ -42,10 +42,10 @@
             "DamMult_Chilling":0.85,
             "DamMult_EMP":0.85,
             "LinkDamageMultipliers": [
-                10.0,
-                2.0,
-                1.2,
-                0.8
+                20.0,
+                4.0,
+                2.4,
+                1.6
             ],
             "LinkStaggerMultipliers": [
                 4.0,
@@ -137,10 +137,10 @@
             "DamMult_Chilling":0.85,
             "DamMult_EMP":0.85,
             "LinkDamageMultipliers": [
-                10.0,
-                2.0,
-                1.2,
-                0.8
+                20.0,
+                4.0,
+                2.4,
+                1.6
             ],
             "LinkStaggerMultipliers": [
                 4.0,
