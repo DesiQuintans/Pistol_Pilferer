@@ -62,6 +62,11 @@ You could just be unlucky and not have had it drop yet. There are a few other po
 
 ## CHANGELOG
 
+## v1.2.1 (2022-04-07)
+
+- Increase cost of 1-token purchases to 2 tokens. I got my cost balancing spreadsheet formulas wrong and made them too cheap.
+
+
 ### v1.2.0 (2022-04-07)
 
 - Reduce Sosig mustard to 10 from 50 to make them bleed out faster.
