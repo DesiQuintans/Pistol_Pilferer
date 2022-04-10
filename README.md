@@ -38,7 +38,7 @@ Plays best in small/mid maps with multiple routes and limited sightlines such as
         - Shield:           Ballistic shield (with viewing window)
         - Health:           Health sausage
 
-6. Sosigs have low base health, but better-armoured sosigs are a little tougher and behave more aggressively. All sosigs sneak and crawl faster in general. Better sosigs shoot sooner, resist more damage, are harder to stun and suppress, and stay stunned and suppressed for a shorter time (they're braver because of their armour).
+6. Sosigs have low base health, but better-armoured sosigs behave more aggressively. All sosigs sneak and crawl faster in general. Better sosigs shoot sooner, are harder to stun and suppress, and stay stunned and suppressed for a shorter time (they're braver because of their armour).
 7. Supply point guards can't move, and can't really fight back against you if you shoot them fast enough. This is sort of a hack to make sure that they don't leave the supply points so you don't have to go hunting for them.
 
 
@@ -56,21 +56,31 @@ You could just be unlucky and not have had it drop yet. There are a few other po
 4. In rare cases, guns may not be fun to use or they may be too good for the game. For example, I support the FTW_Arms_P50 pistol (it fires from a P90 magazine), but I removed its full-auto variant.
 
 
-## Sosigs sometimes die of seemingly nothing. Why?
-
-The 'integrity' of the different parts of the sosig are set low so that they are guaranteed to die from one hit to unarmoured parts of the head or chest. This means that they can also be killed by things they would normally shrug off. I've observed:
-
-1. Being killed by the flying gas mask of a sosig whose head exploded while standing next to them.
-2. A sosig throws their gun when they die, and the gun hits another sosig in the face and kills them.
-3. Being conked by a flying smoke grenade that was spawned randomly by the game.
-4. Throwing a magazine at a sosig's head.
-5. Punching a sosig, of course.
-
-
 ---
 
 
 ## CHANGELOG
+
+## v1.3.0 (2022-04-10)
+
+Thanks to jeditobiwan for [playing Pistol Pilferer again](https://www.twitch.tv/videos/1450964540)! An excellent run, and great moves dodging around cover in the last hold.
+
+- Add F12 (from Update 102) to loot pool. I was very tempted to add the new Uzi Nano as a joke, but it would actually be **too good** for this one-hit-kill character once you added a stock and muzzle brake to it.
+
+- Remove PX4 Storm and G19 from Lv1 loot pool. Their capacity was far too high for Lv1. They're now in Lv3.
+
+- Move PR15 and M9A1 from Lv3 pool to Lv2 pool.
+
+- Remove Mini and Micro Deagles (FTW_Arms_Micro_Deagle) from all loot pools. I found the sights very hard to use, so the guns weren't competitive against other guns in the same loot pool.
+
+- Slow SpawnCadence in the very last hold (Hold 5B) by 1 second. This is the only hold where Lv4 Shield sosigs spawn as leaders (they are random spawns in Endless Holds), so I wanted to be a little bit kinder here since the player has already come so far. But not too kind ;)
+
+- Standardise damage resistances across sosig levels.
+
+- Tweak damage multipliers, damage resistances, and sosig link integrity further. Previously, sosigs could kill each other in a chain reaction where the flying body parts of one sosig could hit and kill another. I made sosigs immune to blunt, melee, and cutting damage to prevent this.
+
+- Update manifest descriptions.
+
 
 ## v1.2.1 (2022-04-07)
 
