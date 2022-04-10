@@ -29,23 +29,23 @@
             "CrawlSpeed":0.60,
             "TurnSpeed":8.0,
             "TotalMustard": 10,
-            "BleedDamageMult":0.80,
-            "BleedRateMultiplier":0.80,
-            "BleedVFXIntensity":0.80,
-            "DamMult_Projectile":0.80,
-            "DamMult_Explosive":0.80,
-            "DamMult_Melee":0.80,
-            "DamMult_Piercing":0.80,
-            "DamMult_Blunt":0.80,
-            "DamMult_Cutting":0.80,
-            "DamMult_Thermal":0.80,
-            "DamMult_Chilling":0.80,
-            "DamMult_EMP":0.80,
+            "BleedDamageMult":1.00,
+            "BleedRateMultiplier":1.00,
+            "BleedVFXIntensity": 1.00,
+            "DamMult_Projectile": 1.00,
+            "DamMult_Explosive": 1.00,
+            "DamMult_Melee": 0.00,
+            "DamMult_Piercing": 1.00,
+            "DamMult_Blunt": 0.00,
+            "DamMult_Cutting": 0.00,
+            "DamMult_Thermal": 1.00,
+            "DamMult_Chilling": 1.00,
+            "DamMult_EMP": 1.00,
             "LinkDamageMultipliers": [
-                20.0,
-                4.0,
-                2.4,
-                1.6
+                200.0,
+                100.0,
+                50.0,
+                1.0
             ],
             "LinkStaggerMultipliers": [
                 4.0,
@@ -53,18 +53,18 @@
                 1.0,
                 1.5
             ],
-            "StartingLinkIntegrity":[
+            "StartingLinkIntegrity": [
                 {
-                    "x":12.0,
-                    "y":12.0
+                    "x":100.0,
+                    "y":100.0
                 },
                 {
-                    "x":25.0,
-                    "y":25.0
+                    "x":100.0,
+                    "y":100.0
                 },
                 {
-                    "x":50.0,
-                    "y":50.0
+                    "x":100.0,
+                    "y":100.0
                 },
                 {
                     "x":100.0,
@@ -124,23 +124,23 @@
             "CrawlSpeed":0.60,
             "TurnSpeed":8.0,
             "TotalMustard": 10,
-            "BleedDamageMult":0.80,
-            "BleedRateMultiplier":0.80,
-            "BleedVFXIntensity":0.80,
-            "DamMult_Projectile":0.80,
-            "DamMult_Explosive":0.80,
-            "DamMult_Melee":0.80,
-            "DamMult_Piercing":0.80,
-            "DamMult_Blunt":0.80,
-            "DamMult_Cutting":0.80,
-            "DamMult_Thermal":0.80,
-            "DamMult_Chilling":0.80,
-            "DamMult_EMP":0.80,
+            "BleedDamageMult":1.00,
+            "BleedRateMultiplier":1.00,
+            "BleedVFXIntensity": 1.00,
+            "DamMult_Projectile": 1.00,
+            "DamMult_Explosive": 1.00,
+            "DamMult_Melee": 0.00,
+            "DamMult_Piercing": 1.00,
+            "DamMult_Blunt": 0.00,
+            "DamMult_Cutting": 0.00,
+            "DamMult_Thermal": 1.00,
+            "DamMult_Chilling": 1.00,
+            "DamMult_EMP": 1.00,
             "LinkDamageMultipliers": [
-                20.0,
-                4.0,
-                2.4,
-                1.6
+                200.0,
+                100.0,
+                50.0,
+                1.0
             ],
             "LinkStaggerMultipliers": [
                 4.0,
@@ -148,18 +148,18 @@
                 1.0,
                 1.5
             ],
-            "StartingLinkIntegrity":[
+            "StartingLinkIntegrity": [
                 {
-                    "x":12.0,
-                    "y":12.0
+                    "x":100.0,
+                    "y":100.0
                 },
                 {
-                    "x":25.0,
-                    "y":25.0
+                    "x":100.0,
+                    "y":100.0
                 },
                 {
-                    "x":50.0,
-                    "y":50.0
+                    "x":100.0,
+                    "y":100.0
                 },
                 {
                     "x":100.0,
