@@ -1,7 +1,7 @@
 # Pistol_Pilferer
 ### A custom character for _Take and Hold_ in _H3VR_
 
-<https://github.com/DesiQuintans/Pistol_Pilferer>
+Submit issues and requests here: <https://github.com/DesiQuintans/Pistol_Pilferer>
 
 ## Summary 
 
@@ -16,7 +16,6 @@ Supports pretty much all pistol mods on Thunderstore.
 **This character is balanced for SPAWNLOCKED AMMO and NO TARGETS only.**
 
 Plays best in small/mid maps with multiple routes and limited sightlines such as '[Hotel Hotlink][hotel]' (sirpotatos) and '[Sanctuary][sanct]' (Muecke).
-
 
 ## Tips for players
 
@@ -45,9 +44,9 @@ Plays best in small/mid maps with multiple routes and limited sightlines such as
 
 ---
 
-## Frequently Asked Questions
+## Pertinent Questions
 
-## Why don't I ever see a modded gun that I have installed appear as loot?
+## Why don't I see some of my modded pistols appear as loot?
 
 You could just be unlucky and not have had it drop yet. There are a few other possibilities, though:
 
@@ -55,6 +54,17 @@ You could just be unlucky and not have had it drop yet. There are a few other po
 2. The mod's author did not fill out the gun's metadata properly. My loot pool script needs the fields FirearmSize, FirearmAction, FirearmFeedOptions, FirearmFiringModes, Capacity, MinCapacityRelated, MaxCapacityRelated, and DoesUseSpeedLoader to all be filled out. FirearmSize needs to be Pocket or Pistol, and only pistols and cartridges in the set 'Real' are used by this character.
 3. The mod **is** in the loot pool, but only one of the cosmetic variants is listed. I only list one cosmetic variant per mod.
 4. In rare cases, guns may not be fun to use or they may be too good for the game. For example, I support the FTW_Arms_P50 pistol (it fires from a P90 magazine), but I removed its full-auto variant.
+
+
+## Sosigs sometimes die of seemingly nothing. Why?
+
+The 'integrity' of the different parts of the sosig are set low so that they are guaranteed to die from one hit to unarmoured parts of the head or chest. This means that they can also be killed by things they would normally shrug off. I've observed:
+
+1. Being killed by the flying gas mask of a sosig whose head exploded while standing next to them.
+2. A sosig throws their gun when they die, and the gun hits another sosig in the face and kills them.
+3. Being conked by a flying smoke grenade that was spawned randomly by the game.
+4. Throwing a magazine at a sosig's head.
+5. Punching a sosig, of course.
 
 
 ---
