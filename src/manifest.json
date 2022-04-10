@@ -3,7 +3,7 @@
     "version_number":"{{ ver }}",
     "author":"Desi",
     "website_url":"https://github.com/DesiQuintans/Pistol_Pilferer",
-    "description":"Supply point guards drop pistols. Fast holds, sosigs die instantly if hit in unarmoured spots. Short- and mid-distance maps play best. SPAWNLOCK and NO TARGETS only. Supports nearly all pistol mods on Thunderstore.",
+    "description":"Supply point guards drop pistols. Fast holds. Sosigs die instantly if hit in unarmoured spots. Short- and mid-distance maps play best. SPAWNLOCK and NO TARGETS only. Supports nearly all pistol mods on Thunderstore.",
     "dependencies":[
         "devyndamonster-TakeAndHoldTweaker-1.6.7",
         "Potatoes-Potatoes_Pistols-10.0.1",
