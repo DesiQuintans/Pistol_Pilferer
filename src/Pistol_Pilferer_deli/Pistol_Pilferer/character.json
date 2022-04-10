@@ -1320,7 +1320,7 @@
                     "MaxEnemies":5,
                     "MaxEnemiesAlive":25,
                     "MaxDirections":2,
-                    "SpawnCadence": 10.0,
+                    "SpawnCadence": 11.0,
                     "ScanTime": 25.0,
                     "WarmupTime": 7.0,
                     "IFFUsed":1,
