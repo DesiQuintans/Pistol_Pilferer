@@ -263,7 +263,6 @@
         "AutoPopulateGroup":false,
         "ForceSpawnAllSubPools":false,
         "IDOverride":[
-"GunB10",
 "Mk4_Hunter",
 "G22",
 "BergmannNo5Carbine",
@@ -274,8 +273,6 @@
 "FNXG",
 "ST2111",
 "GSh18",
-"USPMatch9mm",
-"NWMPGrachGlow",
 "PisAutVP70",
 "P226",
 "PX4Storm",
@@ -291,6 +288,7 @@
 "G19",
 "sw659",
 "UziPro",
+"GunB10",
 "G17Custom"
         ],
         "Eras":[

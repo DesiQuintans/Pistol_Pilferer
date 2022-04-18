@@ -263,13 +263,8 @@
         "AutoPopulateGroup":false,
         "ForceSpawnAllSubPools":false,
         "IDOverride":[
-"Mk4_Whisper",
 "Dev_vz38",
 "Voh_Fort17",
-"potatoesRuger45",
-"TaurusG2Green.Muzz",
-"GunSWShield",
-"P38",
 "Automag4.Muzz",
 "BrowningHP",
 "ftw.gun.hellcat",
@@ -283,6 +278,8 @@
 "FSCE.PL15",
 "potatoesJericho",
 "CZ75Shadow",
+"USPMatch9mm",
+"NWMPGrachGlow",
 "G17",
 "Max9",
 "Defender45",
@@ -291,7 +288,8 @@
 "M92fs",
 "M9A1",
 "PR15",
-"PisMachFrommerStopAuto"
+"PisMachFrommerStopAuto",
+"potatoesRuger45"
         ],
         "Eras":[
             
