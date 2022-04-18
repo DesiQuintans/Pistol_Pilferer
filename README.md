@@ -61,6 +61,13 @@ You could just be unlucky and not have had it drop yet. There are a few other po
 
 ## CHANGELOG
 
+## v1.4.0 (2022-04-18)
+
+- Update loot pools, including:
+    - Add [BV 025](https://h3vr.thunderstore.io/package/devyndamonster/BV_025/) to Lv0 loot pool.
+    - Move PSM, Mk4 Whisper, and P38 Snub to Lv0 loot pool.
+
+
 ## v1.3.0 (2022-04-10)
 
 Thanks to jeditobiwan for [playing Pistol Pilferer again](https://www.twitch.tv/videos/1450964540)! An excellent run, and great moves dodging around cover in the last hold.
